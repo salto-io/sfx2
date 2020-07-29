@@ -1,0 +1,50 @@
+type salesforce.Lead {
+  salesforce.FormulaNumber Age__c {
+    _required = false
+    apiName = "Lead.Age__c"
+    createable = false
+    description = "A formula based field for presenting the age of the lead in days from creation to conversion"
+    externalId = false
+    formula = "IF(IsConverted,ConvertedDate-DATEVALUE(CreatedDate), TODAY()-DATEVALUE(CreatedDate))"
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Age"
+    precision = 18
+    scale = 0
+    unique = false
+    updateable = false
+  }
+  salesforce.Picklist Disqualified_Reason__c {
+    _required = false
+    apiName = "Lead.Disqualified_Reason__c"
+    createable = true
+    description = "Disqualification reason of the lead - must not be empty when lead is disqualified"
+    label = "Disqualified Reason"
+    restricted = true
+    sorted = false
+    updateable = true
+    valueSet = [
+      {
+        default = false
+        fullName = "Not Interested"
+        label = "Not Interested"
+      },
+      {
+        default = false
+        fullName = "No Budget"
+        label = "No Budget"
+      },
+      {
+        default = false
+        fullName = "Wrong Usecase"
+        label = "Wrong Usecase"
+      },
+    ]
+  }
+  salesforce.Url Domain__c {
+    _required = false
+    apiName = "Lead.Domain__c"
+    createable = true
+    label = "Domain"
+    updateable = true
+  }
+}

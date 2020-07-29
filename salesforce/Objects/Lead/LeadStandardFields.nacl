@@ -1,0 +1,325 @@
+type salesforce.Lead {
+  salesforce.Address Address {
+    _required = false
+    apiName = "Lead.Address"
+    createable = false
+    label = "Address"
+    updateable = false
+  }
+  salesforce.Text Company {
+    _required = true
+    apiName = "Lead.Company"
+    caseSensitive = false
+    createable = true
+    label = "Company"
+    length = 255
+    unique = false
+    updateable = true
+  }
+  salesforce.Lookup ConvertedAccountId {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Lead.ConvertedAccountId"
+    createable = false
+    label = "Converted Account ID"
+    referenceTo = [
+      "Account",
+    ]
+    updateable = false
+  }
+  salesforce.Lookup ConvertedContactId {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Lead.ConvertedContactId"
+    createable = false
+    label = "Converted Contact ID"
+    referenceTo = [
+      "Contact",
+    ]
+    updateable = false
+  }
+  salesforce.Date ConvertedDate {
+    _required = false
+    apiName = "Lead.ConvertedDate"
+    createable = false
+    label = "Converted Date"
+    updateable = false
+  }
+  salesforce.Lookup ConvertedOpportunityId {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Lead.ConvertedOpportunityId"
+    createable = false
+    label = "Converted Opportunity ID"
+    referenceTo = [
+      "Opportunity",
+    ]
+    updateable = false
+  }
+  salesforce.Lookup CreatedById {
+    _hidden = true
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Lead.CreatedById"
+    createable = false
+    label = "Created By ID"
+    referenceTo = [
+      "User",
+    ]
+    updateable = false
+  }
+  salesforce.DateTime CreatedDate {
+    _hidden = true
+    _required = false
+    apiName = "Lead.CreatedDate"
+    createable = false
+    label = "Created Date"
+    updateable = false
+  }
+  salesforce.LongTextArea Description {
+    _required = false
+    apiName = "Lead.Description"
+    createable = true
+    label = "Description"
+    length = 32000
+    updateable = true
+  }
+  salesforce.Email Email {
+    _required = false
+    apiName = "Lead.Email"
+    createable = true
+    label = "Email"
+    unique = false
+    updateable = true
+  }
+  salesforce.DateTime EmailBouncedDate {
+    _required = false
+    apiName = "Lead.EmailBouncedDate"
+    createable = false
+    label = "Email Bounced Date"
+    updateable = true
+  }
+  salesforce.Text EmailBouncedReason {
+    _required = false
+    apiName = "Lead.EmailBouncedReason"
+    caseSensitive = false
+    createable = false
+    label = "Email Bounced Reason"
+    length = 255
+    unique = false
+    updateable = true
+  }
+  serviceid Id {
+    _hidden = true
+    _required = false
+    apiName = "Lead.Id"
+    createable = false
+    label = "Lead ID"
+    updateable = false
+  }
+  salesforce.Lookup IndividualId {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Lead.IndividualId"
+    createable = true
+    label = "Individual ID"
+    referenceTo = [
+      "Individual",
+    ]
+    updateable = true
+  }
+  salesforce.Picklist Industry {
+    _required = false
+    apiName = "Lead.Industry"
+    createable = true
+    label = "Industry"
+    restricted = false
+    updateable = true
+    valueSetName = salesforce.StandardValueSet.instance.Industry
+  }
+  salesforce.Checkbox IsConverted {
+    apiName = "Lead.IsConverted"
+    createable = true
+    defaultValue = false
+    label = "Converted"
+    updateable = false
+  }
+  salesforce.Checkbox IsDeleted {
+    _hidden = true
+    _required = false
+    apiName = "Lead.IsDeleted"
+    createable = false
+    defaultValue = false
+    label = "Deleted"
+    updateable = false
+  }
+  salesforce.Checkbox IsUnreadByOwner {
+    apiName = "Lead.IsUnreadByOwner"
+    createable = true
+    defaultValue = false
+    label = "Unread By Owner"
+    updateable = true
+  }
+  salesforce.Text Jigsaw {
+    _required = false
+    apiName = "Lead.Jigsaw"
+    caseSensitive = false
+    createable = true
+    label = "Data.com Key"
+    length = 20
+    unique = false
+    updateable = true
+  }
+  salesforce.Text JigsawContactId {
+    _required = false
+    apiName = "Lead.JigsawContactId"
+    caseSensitive = false
+    createable = false
+    label = "Jigsaw Contact ID"
+    length = 20
+    unique = false
+    updateable = false
+  }
+  salesforce.Date LastActivityDate {
+    _hidden = true
+    _required = false
+    apiName = "Lead.LastActivityDate"
+    createable = false
+    label = "Last Activity"
+    updateable = false
+  }
+  salesforce.Lookup LastModifiedById {
+    _hidden = true
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Lead.LastModifiedById"
+    createable = false
+    label = "Last Modified By ID"
+    referenceTo = [
+      "User",
+    ]
+    updateable = false
+  }
+  salesforce.DateTime LastModifiedDate {
+    _hidden = true
+    _required = false
+    apiName = "Lead.LastModifiedDate"
+    createable = false
+    label = "Last Modified Date"
+    updateable = false
+  }
+  salesforce.Picklist LeadSource {
+    _required = false
+    apiName = "Lead.LeadSource"
+    createable = true
+    label = "Lead Source"
+    restricted = false
+    updateable = true
+    valueSetName = salesforce.StandardValueSet.instance.LeadSource
+  }
+  salesforce.Lookup MasterRecordId {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Lead.MasterRecordId"
+    createable = false
+    label = "Master Record ID"
+    referenceTo = [
+      "Lead",
+    ]
+    updateable = false
+  }
+  salesforce.Phone MobilePhone {
+    _required = false
+    apiName = "Lead.MobilePhone"
+    createable = true
+    label = "Mobile Phone"
+    updateable = true
+  }
+  salesforce.Name Name {
+    _required = true
+    apiName = "Lead.Name"
+    createable = false
+    label = "Full Name"
+    updateable = false
+  }
+  salesforce.Number NumberOfEmployees {
+    _required = false
+    apiName = "Lead.NumberOfEmployees"
+    createable = true
+    label = "Employees"
+    precision = 8
+    scale = 0
+    unique = false
+    updateable = true
+  }
+  salesforce.Lookup OwnerId {
+    _hidden = true
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Lead.OwnerId"
+    createable = false
+    label = "Owner ID"
+    referenceTo = [
+      "Group",
+      "User",
+    ]
+    updateable = false
+  }
+  salesforce.Phone Phone {
+    _required = false
+    apiName = "Lead.Phone"
+    createable = true
+    label = "Phone"
+    updateable = true
+  }
+  salesforce.Url PhotoUrl {
+    _required = false
+    apiName = "Lead.PhotoUrl"
+    createable = false
+    label = "Photo URL"
+    updateable = false
+  }
+  salesforce.Picklist Rating {
+    _required = false
+    apiName = "Lead.Rating"
+    createable = true
+    label = "Rating"
+    restricted = false
+    updateable = true
+    valueSetName = salesforce.StandardValueSet.instance.AccountRating
+  }
+  salesforce.Picklist Status {
+    _required = true
+    apiName = "Lead.Status"
+    createable = true
+    label = "Status"
+    restricted = false
+    updateable = true
+    valueSetName = salesforce.StandardValueSet.instance.LeadStatus
+  }
+  salesforce.DateTime SystemModstamp {
+    _hidden = true
+    _required = false
+    apiName = "Lead.SystemModstamp"
+    createable = false
+    label = "System Modstamp"
+    updateable = false
+  }
+  salesforce.Text Title {
+    _required = false
+    apiName = "Lead.Title"
+    caseSensitive = false
+    createable = true
+    label = "Title"
+    length = 128
+    unique = false
+    updateable = true
+  }
+  salesforce.Url Website {
+    _required = false
+    apiName = "Lead.Website"
+    createable = true
+    label = "Website"
+    updateable = true
+  }
+}
