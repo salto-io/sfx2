@@ -1,0 +1,56 @@
+salesforce.QuickAction NewEvent {
+  fullName = "NewEvent"
+  optionsCreateFeedItem = true
+  quickActionLayout = {
+    quickActionLayoutColumns = [
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = false
+            field = "Subject"
+          },
+          {
+            emptySpace = false
+            field = "Description"
+          },
+          {
+            emptySpace = false
+            field = "StartDateTime"
+          },
+          {
+            emptySpace = false
+            field = "Location"
+          },
+          {
+            emptySpace = false
+            field = "WhoId"
+          },
+        ]
+      },
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = true
+          },
+          {
+            emptySpace = true
+          },
+          {
+            emptySpace = false
+            field = "EndDateTime"
+          },
+          {
+            emptySpace = true
+          },
+          {
+            emptySpace = false
+            field = "WhatId"
+          },
+        ]
+      },
+    ]
+  }
+  standardLabel = "New"
+  targetObject = "Event"
+  type = "Create"
+}

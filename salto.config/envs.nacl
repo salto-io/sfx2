@@ -1,0 +1,40 @@
+envs {
+  envs = [
+    {
+      name = "prod"
+      services = [
+        "salesforce",
+      ]
+    },
+    {
+      name = "stg"
+      services = [
+        "salesforce",
+      ]
+    },
+    {
+      name = "rami"
+      services = [
+        "salesforce",
+      ]
+    },
+    {
+      name = "hadas"
+      services = [
+        "salesforce",
+      ]
+    },
+    {
+      name = "elad"
+      services = [
+        "salesforce",
+      ]
+    },
+    {
+      name = "tomer"
+      services = [
+        "salesforce",
+      ]
+    },
+  ]
+}

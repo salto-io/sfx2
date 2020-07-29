@@ -1,0 +1,71 @@
+salesforce.SecuritySettings {
+  fullName = "Security"
+  canUsersGrantLoginAccess = true
+  enableAuditFieldsInactiveOwner = false
+  enableAuraSecureEvalPref = false
+  enableRequireHttpsConnection = true
+  isTLSv12Required = false
+  isTLSv12RequiredCommunities = false
+  networkAccess = {
+    ipRanges = [
+      {
+        end = "207.232.22.164"
+        start = "207.232.22.164"
+      },
+      {
+        description = "Office IP"
+        end = "185.163.150.236"
+        start = "185.163.150.236"
+      },
+    ]
+  }
+  passwordPolicies = {
+    enableSetPasswordInApi = true
+    historyRestriction = "3"
+    minimumPasswordLength = "8"
+    minimumPasswordLifetime = false
+    obscureSecretAnswer = false
+  }
+  sessionSettings = {
+    allowUserAuthenticationByCertificate = false
+    canConfirmEmailChangeInLightningCommunities = false
+    disableTimeoutWarning = false
+    enableCSPOnEmail = true
+    enableCSRFOnGet = true
+    enableCSRFOnPost = true
+    enableCacheAndAutocomplete = true
+    enableClickjackNonsetupSFDC = true
+    enableClickjackNonsetupUser = false
+    enableClickjackNonsetupUserHeaderless = false
+    enableClickjackSetup = true
+    enableContentSniffingProtection = true
+    enableLightningLogin = true
+    enableLightningLoginOnlyWithUserPerm = false
+    enablePostForSessions = false
+    enableSMSIdentity = true
+    enableU2F = false
+    enableUpgradeInsecureRequests = true
+    enableXssProtection = true
+    enforceIpRangesEveryRequest = false
+    forceLogoutOnSessionTimeout = true
+    forceRelogin = true
+    hasRetainedLoginHints = false
+    hasUserSwitching = true
+    hstsOnForcecomSites = false
+    identityConfirmationOnEmailChange = false
+    identityConfirmationOnTwoFactorRegistrationEnabled = true
+    lockSessionsToDomain = true
+    lockSessionsToIp = false
+    lockerServiceCSP = false
+    redirectionWarning = true
+    referrerPolicy = true
+    requireHttpOnly = false
+    requireHttps = true
+    securityCentralKillSession = true
+  }
+  singleSignOnSettings = {
+    enableMultipleSamlConfigs = true
+    enableSamlJitProvisioning = false
+    enableSamlLogin = false
+  }
+}

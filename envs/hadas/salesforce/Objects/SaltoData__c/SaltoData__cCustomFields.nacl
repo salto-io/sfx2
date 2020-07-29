@@ -1,0 +1,168 @@
+type salesforce.SaltoData__c {
+  salesforce.Date Expiration_date__c {
+    apiName = "SaltoData__c.Expiration_date__c"
+    label = "Expiration date"
+    _required = false
+    createable = true
+    updateable = true
+    description = "Expiration date of current subscription"
+  }
+  salesforce.MasterDetail Account__c {
+    apiName = "SaltoData__c.Account__c"
+    label = "Account"
+    _required = false
+    writeRequiresMasterRead = false
+    reparentableMasterDetail = false
+    referenceTo = [
+      "Account",
+    ]
+    createable = true
+    updateable = false
+    relationshipOrder = 0
+  }
+  salesforce.Number Logins_last_30d__c {
+    apiName = "SaltoData__c.Logins_last_30d__c"
+    label = "Logins last 30d"
+    _required = false
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    description = "Logins last 30d"
+    externalId = false
+  }
+  salesforce.Picklist Subscription_Tier__c {
+    apiName = "SaltoData__c.Subscription_Tier__c"
+    label = "Subscription Tier"
+    _required = false
+    valueSet = [
+      {
+        fullName = "0-100GB"
+        default = false
+        label = "0-100GB"
+      },
+      {
+        fullName = "100-500GB"
+        default = false
+        label = "100-500GB"
+      },
+      {
+        fullName = ">500GB"
+        default = false
+        label = ">500GB"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    description = "Current subscription tier of GBs (by pricing tiers)."
+    sorted = false
+  }
+  salesforce.Picklist Subscription_level__c {
+    apiName = "SaltoData__c.Subscription_level__c"
+    label = "Subscription level"
+    _required = false
+    valueSet = [
+      {
+        fullName = "Prospect"
+        default = false
+        label = "Prospect"
+      },
+      {
+        fullName = "Free trial"
+        default = false
+        label = "Free trial"
+      },
+      {
+        fullName = "Paying"
+        default = false
+        label = "Paying"
+      },
+      {
+        fullName = "Disabled"
+        default = false
+        label = "Disabled"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    sorted = false
+  }
+  salesforce.Currency Total_usd_Paid_Ever__c {
+    apiName = "SaltoData__c.Total_usd_Paid_Ever__c"
+    label = "Total $$ Paid Ever"
+    _required = false
+    createable = true
+    updateable = true
+    scale = 0
+    precision = 18
+    description = "Total $$ amount paid for this subscription id since beginning of time"
+  }
+  salesforce.Number GB_in_use__c {
+    apiName = "SaltoData__c.GB_in_use__c"
+    label = "GB in use"
+    _required = false
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    description = "Current size of GB in use"
+    externalId = false
+  }
+  salesforce.MultiselectPicklist Adapters_In_Use__c {
+    apiName = "SaltoData__c.Adapters_In_Use__c"
+    label = "Adapters In Use"
+    _required = false
+    valueSet = [
+      {
+        fullName = "Salesforce"
+        default = false
+        label = "Salesforce"
+      },
+      {
+        fullName = "Hubspot"
+        default = false
+        label = "Hubspot"
+      },
+      {
+        fullName = "Netsuite"
+        default = false
+        label = "Netsuite"
+      },
+    ]
+    restricted = true
+    visibleLines = 4
+    createable = true
+    updateable = true
+    sorted = false
+  }
+  salesforce.Checkbox Is_Open_Source__c {
+    apiName = "SaltoData__c.Is_Open_Source__c"
+    label = "Is Open Source"
+    defaultValue = false
+    createable = true
+    updateable = true
+    description = "Whether the account using salto is doing so via open source with no active subscription."
+  }
+  salesforce.DateTime Last_login__c {
+    apiName = "SaltoData__c.Last_login__c"
+    label = "Last login"
+    _required = false
+    createable = true
+    updateable = true
+    description = "Last login of any user within this account"
+  }
+  salesforce.Currency Total_usd_Last_12m__c {
+    apiName = "SaltoData__c.Total_usd_Last_12m__c"
+    label = "Total $$ Last 12m"
+    _required = false
+    createable = true
+    updateable = true
+    scale = 0
+    precision = 18
+    description = "Total $$ paid for this subscription id within the last 12 months."
+  }
+}

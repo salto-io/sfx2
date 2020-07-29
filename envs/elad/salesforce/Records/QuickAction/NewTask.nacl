@@ -1,0 +1,42 @@
+salesforce.QuickAction NewTask {
+  fullName = "NewTask"
+  optionsCreateFeedItem = true
+  quickActionLayout = {
+    quickActionLayoutColumns = [
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = false
+            field = "Subject"
+          },
+          {
+            emptySpace = false
+            field = "ActivityDate"
+          },
+          {
+            emptySpace = false
+            field = "WhoId"
+          },
+        ]
+      },
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = true
+          },
+          {
+            emptySpace = false
+            field = "OwnerId"
+          },
+          {
+            emptySpace = false
+            field = "WhatId"
+          },
+        ]
+      },
+    ]
+  }
+  standardLabel = "New"
+  targetObject = "Task"
+  type = "Create"
+}

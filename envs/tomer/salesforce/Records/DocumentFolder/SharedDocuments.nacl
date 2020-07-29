@@ -1,0 +1,5 @@
+salesforce.DocumentFolder SharedDocuments {
+  accessType = "Public"
+  name = "Shared Documents"
+  fullName = "SharedDocuments"
+}

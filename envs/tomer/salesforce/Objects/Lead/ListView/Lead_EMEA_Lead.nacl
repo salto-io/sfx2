@@ -1,0 +1,7 @@
+salesforce.ListView Lead_EMEA_Lead {
+  fullName = "Lead.EMEA_Lead"
+  filterScope = "Queue"
+  label = "EMEA"
+  queue = "EMEA"
+  _parent = salesforce.Lead
+}

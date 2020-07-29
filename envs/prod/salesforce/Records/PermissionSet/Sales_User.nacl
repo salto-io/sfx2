@@ -1,0 +1,5 @@
+salesforce.PermissionSet Sales_User {
+  fullName = "Sales_User"
+  hasActivationRequired = false
+  label = "Sales User"
+}

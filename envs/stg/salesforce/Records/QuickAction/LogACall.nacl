@@ -1,0 +1,41 @@
+salesforce.QuickAction LogACall {
+  fullName = "LogACall"
+  optionsCreateFeedItem = true
+  quickActionLayout = {
+    quickActionLayoutColumns = [
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = false
+            field = "Subject"
+          },
+          {
+            emptySpace = false
+            field = "Description"
+          },
+          {
+            emptySpace = false
+            field = "WhoId"
+          },
+        ]
+      },
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = true
+          },
+          {
+            emptySpace = true
+          },
+          {
+            emptySpace = false
+            field = "WhatId"
+          },
+        ]
+      },
+    ]
+  }
+  standardLabel = "LogACall"
+  targetObject = "Task"
+  type = "LogACall"
+}

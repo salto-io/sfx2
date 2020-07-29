@@ -1,0 +1,99 @@
+type salesforce.ProfileSkillEndorsement {
+  serviceid Id {
+    apiName = "ProfileSkillEndorsement.Id"
+    label = "Endorsement ID"
+    _required = false
+    _hidden = true
+    updateable = false
+    createable = false
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ProfileSkillEndorsement.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    createable = false
+    updateable = false
+    _hidden = true
+    _required = false
+  }
+  salesforce.Text Name {
+    apiName = "ProfileSkillEndorsement.Name"
+    label = "Endorsement Name"
+    _required = true
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 255
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ProfileSkillEndorsement.CreatedDate"
+    label = "Added Date"
+    _required = false
+    createable = false
+    updateable = false
+    _hidden = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ProfileSkillEndorsement.CreatedById"
+    label = "Created By ID"
+    _required = false
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      "User",
+    ]
+    createable = false
+    updateable = false
+    _hidden = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ProfileSkillEndorsement.LastModifiedDate"
+    label = "Last Modified Date"
+    _required = false
+    createable = false
+    updateable = false
+    _hidden = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ProfileSkillEndorsement.LastModifiedById"
+    label = "Last Modified By ID"
+    _required = false
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      "User",
+    ]
+    createable = false
+    updateable = false
+    _hidden = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ProfileSkillEndorsement.SystemModstamp"
+    label = "System Modstamp"
+    _required = false
+    createable = false
+    updateable = false
+    _hidden = true
+  }
+  salesforce.Lookup ProfileSkillUserId {
+    apiName = "ProfileSkillEndorsement.ProfileSkillUserId"
+    label = "Skill User ID"
+    _required = true
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      "ProfileSkillUser",
+    ]
+    createable = true
+    updateable = false
+  }
+  salesforce.Lookup UserId {
+    apiName = "ProfileSkillEndorsement.UserId"
+    label = "User ID"
+    _required = false
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      "User",
+    ]
+    createable = true
+    updateable = true
+  }
+}

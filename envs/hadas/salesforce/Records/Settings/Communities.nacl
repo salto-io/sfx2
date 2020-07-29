@@ -1,0 +1,11 @@
+salesforce.CommunitiesSettings {
+  fullName = "Communities"
+  enableCspContactVisibilityPref = false
+  enableExternalAccHierPref = false
+  enableGuestRecordReassignOrgPref = true
+  enableInviteChatterGuestEnabled = true
+  enableNetworksEnabled = false
+  enableOotbProfExtUserOpsEnable = false
+  enablePRMAccRelPref = false
+  enableRelaxPartnerAccountFieldPref = false
+}

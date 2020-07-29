@@ -1,0 +1,12 @@
+salesforce.EmailTemplate unfiled_public_LeadsWebtoLeademailresponseSAMPLE {
+  available = true
+  description = "Auto-response when new lead is submitted online."
+  encodingKey = "ISO-8859-1"
+  name = "Leads:  Web-to-Lead email response (SAMPLE)"
+  style = "none"
+  subject = "{!Organization.Name}:  Thank you for your inquiry"
+  type = "text"
+  uiType = "Aloha"
+  fullName = "unfiled$public/LeadsWebtoLeademailresponseSAMPLE"
+  content = file("salesforce/email/unfiled$public/LeadsWebtoLeademailresponseSAMPLE.email")
+}

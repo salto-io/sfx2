@@ -1,0 +1,4 @@
+salesforce.SocialCustomerServiceSettings {
+  fullName = "SocialCustomerService"
+  caseSubjectOption = "SocialPostSource"
+}

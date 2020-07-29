@@ -1,0 +1,21 @@
+salesforce.QuickAction Task_UpdatePriority_4 {
+  fullName = "Task.UpdatePriority_4"
+  optionsCreateFeedItem = false
+  quickActionLayout = {
+    quickActionLayoutColumns = [
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = false
+            field = "Priority"
+          },
+        ]
+      },
+    ]
+  }
+  standardLabel = "ChangePriority"
+  type = "Update"
+  _parent = [
+    salesforce.Task,
+  ]
+}

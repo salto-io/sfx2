@@ -1,0 +1,43 @@
+salesforce {
+  metadataTypesSkippedList = [
+    "Report",
+    "ReportType",
+    "ReportFolder",
+    "Dashboard",
+    "DashboardFolder",
+    "Profile",
+  ]
+  instancesRegexSkippedList = [
+    "^ConnectedApp.CPQIntegrationUserApp$",
+    "^EmailTemplate.MarketoEmailTemplates",
+  ]
+  maxConcurrentRetrieveRequests = 3
+  maxItemsInRetrieveRequest = 2500
+  enableHideTypesInNacls = true
+  dataManagement = [
+    {
+      name = "CPQ"
+      enabled = false
+      includeNamespaces = [
+        "SBQQ",
+      ]
+      includeObjects = [
+        "Product2",
+        "Pricebook2",
+        "PricebookEntry",
+      ]
+      excludeObjects = [
+        "SBQQ__ContractedPrice__c",
+        "SBQQ__Quote__c",
+        "SBQQ__QuoteLine__c",
+        "SBQQ__Subscription__c",
+        "SBQQ__SubscribedAsset__c",
+        "SBQQ__SubscribedQuoteLine__c",
+        "SBQQ__SubscriptionConsumptionRate__c",
+        "SBQQ__SubscriptionConsumptionSchedule__c",
+        "SBQQ__WebQuote__c",
+        "SBQQ__WebQuoteLine__c",
+      ]
+    },
+  ]
+}

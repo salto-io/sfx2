@@ -1,0 +1,122 @@
+salesforce.CustomObjectTranslation Yariv__c_en_US {
+  fullName = "Yariv__c-en_US"
+  caseValues = [
+    {
+      plural = false
+      value = "Yariv"
+    },
+    {
+      plural = true
+      value = "Yarivs"
+    },
+  ]
+  fields = [
+    {
+      name = "Picklist_Yariv__c"
+      picklistValues = [
+        {
+          masterLabel = "do"
+        },
+        {
+          masterLabel = "fa"
+        },
+        {
+          masterLabel = "la"
+        },
+        {
+          masterLabel = "mi"
+        },
+        {
+          masterLabel = "re"
+        },
+        {
+          masterLabel = "so"
+        },
+      ]
+    },
+    {
+      name = "Yariv_Auto__c"
+    },
+    {
+      name = "Yariv_Checkbox__c"
+    },
+    {
+      name = "Yariv_Currency__c"
+    },
+    {
+      name = "Yariv_Date__c"
+    },
+    {
+      name = "Yariv_Datetime__c"
+    },
+    {
+      name = "Yariv_Email__c"
+    },
+    {
+      name = "Yariv_Formula__c"
+    },
+    {
+      name = "Yariv_Geolocation__c"
+    },
+    {
+      name = "Yariv_Multipick__c"
+      picklistValues = [
+        {
+          masterLabel = "do"
+        },
+        {
+          masterLabel = "fa"
+        },
+        {
+          masterLabel = "la"
+        },
+        {
+          masterLabel = "mi"
+        },
+        {
+          masterLabel = "re"
+        },
+        {
+          masterLabel = "si"
+        },
+        {
+          masterLabel = "sol"
+        },
+      ]
+    },
+    {
+      name = "Yariv_Number__c"
+    },
+    {
+      name = "Yariv_Percent__c"
+    },
+    {
+      name = "Yariv_Phone__c"
+    },
+    {
+      name = "Yariv_Text_Area_Long__c"
+    },
+    {
+      name = "Yariv_Text_Area_Rich__c"
+    },
+    {
+      name = "Yariv_Text_Area__c"
+    },
+    {
+      name = "Yariv_Text_Encvrypted__c"
+    },
+    {
+      name = "Yariv_Text__c"
+    },
+    {
+      name = "Yariv_Time__c"
+    },
+    {
+      name = "Yariv_URL__c"
+    },
+  ]
+  startsWith = "Consonant"
+  _parent = [
+    salesforce.Yariv__c,
+  ]
+}

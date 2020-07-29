@@ -1,0 +1,89 @@
+salesforce.AppMenu AppSwitcher {
+  fullName = "AppSwitcher"
+  appMenuItems = [
+    {
+      name = "standard__Platform"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__Sales"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__Chatter"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__Marketing"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__Service"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__Community"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__ServiceConsole"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__LightningSales"
+      type = "CustomApplication"
+    },
+    {
+      name = "Sales_Leadership"
+      type = "CustomApplication"
+    },
+    {
+      name = "Lead_Generation"
+      type = "CustomApplication"
+    },
+    {
+      name = "Sales_Operations"
+      type = "CustomApplication"
+    },
+    {
+      name = "Relationship_Management"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__LightningSalesConsole"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__LightningBolt"
+      type = "CustomApplication"
+    },
+    {
+      name = "CPQIntegrationUserApp"
+      type = "ConnectedApp"
+    },
+    {
+      name = "standard__SalesforceCMS"
+      type = "CustomApplication"
+    },
+    {
+      name = "DEVHUB_f5ixjbikgfpendcinjxh"
+      type = "ConnectedApp"
+    },
+    {
+      name = "Salto_CI"
+      type = "ConnectedApp"
+    },
+    {
+      name = "standard__AppLauncher"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__AllTabSet"
+      type = "CustomApplication"
+    },
+    {
+      name = "standard__LightningService"
+      type = "CustomApplication"
+    },
+  ]
+}

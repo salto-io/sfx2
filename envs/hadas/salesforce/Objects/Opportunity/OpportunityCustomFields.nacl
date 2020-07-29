@@ -1,0 +1,59 @@
+type salesforce.Opportunity {
+  salesforce.Checkbox Budget_Confirmed__c {
+    apiName = "Opportunity.Budget_Confirmed__c"
+    label = "Budget Confirmed"
+    defaultValue = false
+    createable = true
+    updateable = true
+  }
+  salesforce.Checkbox Discovery_Completed__c {
+    apiName = "Opportunity.Discovery_Completed__c"
+    label = "Discovery Completed"
+    defaultValue = false
+    createable = true
+    updateable = true
+  }
+  salesforce.Checkbox ROI_Analysis_Completed__c {
+    apiName = "Opportunity.ROI_Analysis_Completed__c"
+    label = "ROI Analysis Completed"
+    defaultValue = false
+    createable = true
+    updateable = true
+  }
+  salesforce.Picklist Loss_Reason__c {
+    apiName = "Opportunity.Loss_Reason__c"
+    label = "Loss Reason"
+    _required = false
+    valueSet = [
+      {
+        fullName = "Lost to Competitor"
+        default = false
+        label = "Lost to Competitor"
+      },
+      {
+        fullName = "No Budget / Lost Funding"
+        default = false
+        label = "No Budget / Lost Funding"
+      },
+      {
+        fullName = "No Decision / Non-Responsive"
+        default = false
+        label = "No Decision / Non-Responsive"
+      },
+      {
+        fullName = "Price"
+        default = false
+        label = "Price"
+      },
+      {
+        fullName = "Other"
+        default = false
+        label = "Other"
+      },
+    ]
+    restricted = false
+    createable = true
+    updateable = true
+    sorted = false
+  }
+}

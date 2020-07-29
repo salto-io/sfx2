@@ -1,0 +1,1686 @@
+salesforce.StandardValueSet AddressStateCode {
+  fullName = "AddressStateCode"
+  sorted = true
+  standardValue = [
+    {
+      fullName = "AC"
+      default = false
+      label = "Acre"
+    },
+    {
+      fullName = "AG"
+      default = false
+      label = "Agrigento"
+    },
+    {
+      fullName = "AG"
+      default = false
+      label = "Aguascalientes"
+    },
+    {
+      fullName = "AL"
+      default = false
+      label = "Alabama"
+    },
+    {
+      fullName = "AL"
+      default = false
+      label = "Alagoas"
+    },
+    {
+      fullName = "AK"
+      default = false
+      label = "Alaska"
+    },
+    {
+      fullName = "AB"
+      default = false
+      label = "Alberta"
+    },
+    {
+      fullName = "AL"
+      default = false
+      label = "Alessandria"
+    },
+    {
+      fullName = "AP"
+      default = false
+      label = "Amapá"
+    },
+    {
+      fullName = "AM"
+      default = false
+      label = "Amazonas"
+    },
+    {
+      fullName = "AN"
+      default = false
+      label = "Ancona"
+    },
+    {
+      fullName = "AN"
+      default = false
+      label = "Andaman and Nicobar Islands"
+    },
+    {
+      fullName = "AP"
+      default = false
+      label = "Andhra Pradesh"
+    },
+    {
+      fullName = "34"
+      default = false
+      label = "Anhui"
+    },
+    {
+      fullName = "AO"
+      default = false
+      label = "Aosta"
+    },
+    {
+      fullName = "AR"
+      default = false
+      label = "Arezzo"
+    },
+    {
+      fullName = "AZ"
+      default = false
+      label = "Arizona"
+    },
+    {
+      fullName = "AR"
+      default = false
+      label = "Arkansas"
+    },
+    {
+      fullName = "AR"
+      default = false
+      label = "Arunachal Pradesh"
+    },
+    {
+      fullName = "AP"
+      default = false
+      label = "Ascoli Piceno"
+    },
+    {
+      fullName = "AS"
+      default = false
+      label = "Assam"
+    },
+    {
+      fullName = "AT"
+      default = false
+      label = "Asti"
+    },
+    {
+      fullName = "ACT"
+      default = false
+      label = "Australian Capital Territory"
+    },
+    {
+      fullName = "AV"
+      default = false
+      label = "Avellino"
+    },
+    {
+      fullName = "BA"
+      default = false
+      label = "Bahia"
+    },
+    {
+      fullName = "BC"
+      default = false
+      label = "Baja California"
+    },
+    {
+      fullName = "BS"
+      default = false
+      label = "Baja California Sur"
+    },
+    {
+      fullName = "BA"
+      default = false
+      label = "Bari"
+    },
+    {
+      fullName = "BT"
+      default = false
+      label = "Barletta-Andria-Trani"
+    },
+    {
+      fullName = "11"
+      default = false
+      label = "Beijing"
+    },
+    {
+      fullName = "BL"
+      default = false
+      label = "Belluno"
+    },
+    {
+      fullName = "BN"
+      default = false
+      label = "Benevento"
+    },
+    {
+      fullName = "BG"
+      default = false
+      label = "Bergamo"
+    },
+    {
+      fullName = "BI"
+      default = false
+      label = "Biella"
+    },
+    {
+      fullName = "BR"
+      default = false
+      label = "Bihar"
+    },
+    {
+      fullName = "BO"
+      default = false
+      label = "Bologna"
+    },
+    {
+      fullName = "BZ"
+      default = false
+      label = "Bolzano"
+    },
+    {
+      fullName = "BS"
+      default = false
+      label = "Brescia"
+    },
+    {
+      fullName = "BR"
+      default = false
+      label = "Brindisi"
+    },
+    {
+      fullName = "BC"
+      default = false
+      label = "British Columbia"
+    },
+    {
+      fullName = "CA"
+      default = false
+      label = "Cagliari"
+    },
+    {
+      fullName = "CA"
+      default = false
+      label = "California"
+    },
+    {
+      fullName = "CL"
+      default = false
+      label = "Caltanissetta"
+    },
+    {
+      fullName = "CM"
+      default = false
+      label = "Campeche"
+    },
+    {
+      fullName = "CB"
+      default = false
+      label = "Campobasso"
+    },
+    {
+      fullName = "CI"
+      default = false
+      label = "Carbonia-Iglesias"
+    },
+    {
+      fullName = "CW"
+      default = false
+      label = "Carlow"
+    },
+    {
+      fullName = "CE"
+      default = false
+      label = "Caserta"
+    },
+    {
+      fullName = "CT"
+      default = false
+      label = "Catania"
+    },
+    {
+      fullName = "CZ"
+      default = false
+      label = "Catanzaro"
+    },
+    {
+      fullName = "CN"
+      default = false
+      label = "Cavan"
+    },
+    {
+      fullName = "CE"
+      default = false
+      label = "Ceará"
+    },
+    {
+      fullName = "CH"
+      default = false
+      label = "Chandigarh"
+    },
+    {
+      fullName = "CT"
+      default = false
+      label = "Chhattisgarh"
+    },
+    {
+      fullName = "CS"
+      default = false
+      label = "Chiapas"
+    },
+    {
+      fullName = "CH"
+      default = false
+      label = "Chieti"
+    },
+    {
+      fullName = "CH"
+      default = false
+      label = "Chihuahua"
+    },
+    {
+      fullName = "71"
+      default = false
+      label = "Chinese Taipei"
+    },
+    {
+      fullName = "50"
+      default = false
+      label = "Chongqing"
+    },
+    {
+      fullName = "CE"
+      default = false
+      label = "Clare"
+    },
+    {
+      fullName = "CO"
+      default = false
+      label = "Coahuila"
+    },
+    {
+      fullName = "CL"
+      default = false
+      label = "Colima"
+    },
+    {
+      fullName = "CO"
+      default = false
+      label = "Colorado"
+    },
+    {
+      fullName = "CO"
+      default = false
+      label = "Como"
+    },
+    {
+      fullName = "CT"
+      default = false
+      label = "Connecticut"
+    },
+    {
+      fullName = "CO"
+      default = false
+      label = "Cork"
+    },
+    {
+      fullName = "CS"
+      default = false
+      label = "Cosenza"
+    },
+    {
+      fullName = "CR"
+      default = false
+      label = "Cremona"
+    },
+    {
+      fullName = "KR"
+      default = false
+      label = "Crotone"
+    },
+    {
+      fullName = "CN"
+      default = false
+      label = "Cuneo"
+    },
+    {
+      fullName = "DN"
+      default = false
+      label = "Dadra and Nagar Haveli"
+    },
+    {
+      fullName = "DD"
+      default = false
+      label = "Daman and Diu"
+    },
+    {
+      fullName = "DE"
+      default = false
+      label = "Delaware"
+    },
+    {
+      fullName = "DL"
+      default = false
+      label = "Delhi"
+    },
+    {
+      fullName = "DC"
+      default = false
+      label = "District of Columbia"
+    },
+    {
+      fullName = "DF"
+      default = false
+      label = "Distrito Federal"
+    },
+    {
+      fullName = "DL"
+      default = false
+      label = "Donegal"
+    },
+    {
+      fullName = "D"
+      default = false
+      label = "Dublin"
+    },
+    {
+      fullName = "DG"
+      default = false
+      label = "Durango"
+    },
+    {
+      fullName = "EN"
+      default = false
+      label = "Enna"
+    },
+    {
+      fullName = "ES"
+      default = false
+      label = "Espírito Santo"
+    },
+    {
+      fullName = "DF"
+      default = false
+      label = "Federal District"
+    },
+    {
+      fullName = "FM"
+      default = false
+      label = "Fermo"
+    },
+    {
+      fullName = "FE"
+      default = false
+      label = "Ferrara"
+    },
+    {
+      fullName = "FI"
+      default = false
+      label = "Florence"
+    },
+    {
+      fullName = "FL"
+      default = false
+      label = "Florida"
+    },
+    {
+      fullName = "FG"
+      default = false
+      label = "Foggia"
+    },
+    {
+      fullName = "FC"
+      default = false
+      label = "Forlì-Cesena"
+    },
+    {
+      fullName = "FR"
+      default = false
+      label = "Frosinone"
+    },
+    {
+      fullName = "35"
+      default = false
+      label = "Fujian"
+    },
+    {
+      fullName = "G"
+      default = false
+      label = "Galway"
+    },
+    {
+      fullName = "62"
+      default = false
+      label = "Gansu"
+    },
+    {
+      fullName = "GE"
+      default = false
+      label = "Genoa"
+    },
+    {
+      fullName = "GA"
+      default = false
+      label = "Georgia"
+    },
+    {
+      fullName = "GA"
+      default = false
+      label = "Goa"
+    },
+    {
+      fullName = "GO"
+      default = false
+      label = "Goiás"
+    },
+    {
+      fullName = "GO"
+      default = false
+      label = "Gorizia"
+    },
+    {
+      fullName = "GR"
+      default = false
+      label = "Grosseto"
+    },
+    {
+      fullName = "GT"
+      default = false
+      label = "Guanajuato"
+    },
+    {
+      fullName = "44"
+      default = false
+      label = "Guangdong"
+    },
+    {
+      fullName = "45"
+      default = false
+      label = "Guangxi"
+    },
+    {
+      fullName = "GR"
+      default = false
+      label = "Guerrero"
+    },
+    {
+      fullName = "52"
+      default = false
+      label = "Guizhou"
+    },
+    {
+      fullName = "GJ"
+      default = false
+      label = "Gujarat"
+    },
+    {
+      fullName = "46"
+      default = false
+      label = "Hainan"
+    },
+    {
+      fullName = "HR"
+      default = false
+      label = "Haryana"
+    },
+    {
+      fullName = "HI"
+      default = false
+      label = "Hawaii"
+    },
+    {
+      fullName = "13"
+      default = false
+      label = "Hebei"
+    },
+    {
+      fullName = "23"
+      default = false
+      label = "Heilongjiang"
+    },
+    {
+      fullName = "41"
+      default = false
+      label = "Henan"
+    },
+    {
+      fullName = "HG"
+      default = false
+      label = "Hidalgo"
+    },
+    {
+      fullName = "HP"
+      default = false
+      label = "Himachal Pradesh"
+    },
+    {
+      fullName = "91"
+      default = false
+      label = "Hong Kong"
+    },
+    {
+      fullName = "42"
+      default = false
+      label = "Hubei"
+    },
+    {
+      fullName = "43"
+      default = false
+      label = "Hunan"
+    },
+    {
+      fullName = "ID"
+      default = false
+      label = "Idaho"
+    },
+    {
+      fullName = "IL"
+      default = false
+      label = "Illinois"
+    },
+    {
+      fullName = "IM"
+      default = false
+      label = "Imperia"
+    },
+    {
+      fullName = "IN"
+      default = false
+      label = "Indiana"
+    },
+    {
+      fullName = "IA"
+      default = false
+      label = "Iowa"
+    },
+    {
+      fullName = "IS"
+      default = false
+      label = "Isernia"
+    },
+    {
+      fullName = "JA"
+      default = false
+      label = "Jalisco"
+    },
+    {
+      fullName = "JK"
+      default = false
+      label = "Jammu and Kashmir"
+    },
+    {
+      fullName = "JH"
+      default = false
+      label = "Jharkhand"
+    },
+    {
+      fullName = "32"
+      default = false
+      label = "Jiangsu"
+    },
+    {
+      fullName = "36"
+      default = false
+      label = "Jiangxi"
+    },
+    {
+      fullName = "22"
+      default = false
+      label = "Jilin"
+    },
+    {
+      fullName = "KS"
+      default = false
+      label = "Kansas"
+    },
+    {
+      fullName = "KA"
+      default = false
+      label = "Karnataka"
+    },
+    {
+      fullName = "KY"
+      default = false
+      label = "Kentucky"
+    },
+    {
+      fullName = "KL"
+      default = false
+      label = "Kerala"
+    },
+    {
+      fullName = "KY"
+      default = false
+      label = "Kerry"
+    },
+    {
+      fullName = "KE"
+      default = false
+      label = "Kildare"
+    },
+    {
+      fullName = "KK"
+      default = false
+      label = "Kilkenny"
+    },
+    {
+      fullName = "AQ"
+      default = false
+      label = "L'Aquila"
+    },
+    {
+      fullName = "LD"
+      default = false
+      label = "Lakshadweep"
+    },
+    {
+      fullName = "LS"
+      default = false
+      label = "Laois"
+    },
+    {
+      fullName = "SP"
+      default = false
+      label = "La Spezia"
+    },
+    {
+      fullName = "LT"
+      default = false
+      label = "Latina"
+    },
+    {
+      fullName = "LE"
+      default = false
+      label = "Lecce"
+    },
+    {
+      fullName = "LC"
+      default = false
+      label = "Lecco"
+    },
+    {
+      fullName = "LM"
+      default = false
+      label = "Leitrim"
+    },
+    {
+      fullName = "21"
+      default = false
+      label = "Liaoning"
+    },
+    {
+      fullName = "LK"
+      default = false
+      label = "Limerick"
+    },
+    {
+      fullName = "LI"
+      default = false
+      label = "Livorno"
+    },
+    {
+      fullName = "LO"
+      default = false
+      label = "Lodi"
+    },
+    {
+      fullName = "LD"
+      default = false
+      label = "Longford"
+    },
+    {
+      fullName = "LA"
+      default = false
+      label = "Louisiana"
+    },
+    {
+      fullName = "LH"
+      default = false
+      label = "Louth"
+    },
+    {
+      fullName = "LU"
+      default = false
+      label = "Lucca"
+    },
+    {
+      fullName = "92"
+      default = false
+      label = "Macao"
+    },
+    {
+      fullName = "MC"
+      default = false
+      label = "Macerata"
+    },
+    {
+      fullName = "MP"
+      default = false
+      label = "Madhya Pradesh"
+    },
+    {
+      fullName = "MH"
+      default = false
+      label = "Maharashtra"
+    },
+    {
+      fullName = "ME"
+      default = false
+      label = "Maine"
+    },
+    {
+      fullName = "MN"
+      default = false
+      label = "Manipur"
+    },
+    {
+      fullName = "MB"
+      default = false
+      label = "Manitoba"
+    },
+    {
+      fullName = "MN"
+      default = false
+      label = "Mantua"
+    },
+    {
+      fullName = "MA"
+      default = false
+      label = "Maranhão"
+    },
+    {
+      fullName = "MD"
+      default = false
+      label = "Maryland"
+    },
+    {
+      fullName = "MS"
+      default = false
+      label = "Massa and Carrara"
+    },
+    {
+      fullName = "MA"
+      default = false
+      label = "Massachusetts"
+    },
+    {
+      fullName = "MT"
+      default = false
+      label = "Matera"
+    },
+    {
+      fullName = "MT"
+      default = false
+      label = "Mato Grosso"
+    },
+    {
+      fullName = "MS"
+      default = false
+      label = "Mato Grosso do Sul"
+    },
+    {
+      fullName = "MO"
+      default = false
+      label = "Mayo"
+    },
+    {
+      fullName = "MH"
+      default = false
+      label = "Meath"
+    },
+    {
+      fullName = "VS"
+      default = false
+      label = "Medio Campidano"
+    },
+    {
+      fullName = "ML"
+      default = false
+      label = "Meghalaya"
+    },
+    {
+      fullName = "ME"
+      default = false
+      label = "Messina"
+    },
+    {
+      fullName = "ME"
+      default = false
+      label = "Mexico State"
+    },
+    {
+      fullName = "MI"
+      default = false
+      label = "Michigan"
+    },
+    {
+      fullName = "MI"
+      default = false
+      label = "Michoacán"
+    },
+    {
+      fullName = "MI"
+      default = false
+      label = "Milan"
+    },
+    {
+      fullName = "MG"
+      default = false
+      label = "Minas Gerais"
+    },
+    {
+      fullName = "MN"
+      default = false
+      label = "Minnesota"
+    },
+    {
+      fullName = "MS"
+      default = false
+      label = "Mississippi"
+    },
+    {
+      fullName = "MO"
+      default = false
+      label = "Missouri"
+    },
+    {
+      fullName = "MZ"
+      default = false
+      label = "Mizoram"
+    },
+    {
+      fullName = "MO"
+      default = false
+      label = "Modena"
+    },
+    {
+      fullName = "MN"
+      default = false
+      label = "Monaghan"
+    },
+    {
+      fullName = "MT"
+      default = false
+      label = "Montana"
+    },
+    {
+      fullName = "MB"
+      default = false
+      label = "Monza and Brianza"
+    },
+    {
+      fullName = "MO"
+      default = false
+      label = "Morelos"
+    },
+    {
+      fullName = "NL"
+      default = false
+      label = "Nagaland"
+    },
+    {
+      fullName = "NA"
+      default = false
+      label = "Naples"
+    },
+    {
+      fullName = "NA"
+      default = false
+      label = "Nayarit"
+    },
+    {
+      fullName = "NE"
+      default = false
+      label = "Nebraska"
+    },
+    {
+      fullName = "15"
+      default = false
+      label = "Nei Mongol"
+    },
+    {
+      fullName = "NV"
+      default = false
+      label = "Nevada"
+    },
+    {
+      fullName = "NB"
+      default = false
+      label = "New Brunswick"
+    },
+    {
+      fullName = "NL"
+      default = false
+      label = "Newfoundland and Labrador"
+    },
+    {
+      fullName = "NH"
+      default = false
+      label = "New Hampshire"
+    },
+    {
+      fullName = "NJ"
+      default = false
+      label = "New Jersey"
+    },
+    {
+      fullName = "NM"
+      default = false
+      label = "New Mexico"
+    },
+    {
+      fullName = "NSW"
+      default = false
+      label = "New South Wales"
+    },
+    {
+      fullName = "NY"
+      default = false
+      label = "New York"
+    },
+    {
+      fullName = "64"
+      default = false
+      label = "Ningxia"
+    },
+    {
+      fullName = "NC"
+      default = false
+      label = "North Carolina"
+    },
+    {
+      fullName = "ND"
+      default = false
+      label = "North Dakota"
+    },
+    {
+      fullName = "NT"
+      default = false
+      label = "Northern Territory"
+    },
+    {
+      fullName = "NT"
+      default = false
+      label = "Northwest Territories"
+    },
+    {
+      fullName = "NO"
+      default = false
+      label = "Novara"
+    },
+    {
+      fullName = "NS"
+      default = false
+      label = "Nova Scotia"
+    },
+    {
+      fullName = "NL"
+      default = false
+      label = "Nuevo León"
+    },
+    {
+      fullName = "NU"
+      default = false
+      label = "Nunavut"
+    },
+    {
+      fullName = "NU"
+      default = false
+      label = "Nuoro"
+    },
+    {
+      fullName = "OA"
+      default = false
+      label = "Oaxaca"
+    },
+    {
+      fullName = "OR"
+      default = false
+      label = "Odisha"
+    },
+    {
+      fullName = "OY"
+      default = false
+      label = "Offaly"
+    },
+    {
+      fullName = "OG"
+      default = false
+      label = "Ogliastra"
+    },
+    {
+      fullName = "OH"
+      default = false
+      label = "Ohio"
+    },
+    {
+      fullName = "OK"
+      default = false
+      label = "Oklahoma"
+    },
+    {
+      fullName = "OT"
+      default = false
+      label = "Olbia-Tempio"
+    },
+    {
+      fullName = "ON"
+      default = false
+      label = "Ontario"
+    },
+    {
+      fullName = "OR"
+      default = false
+      label = "Oregon"
+    },
+    {
+      fullName = "OR"
+      default = false
+      label = "Oristano"
+    },
+    {
+      fullName = "PD"
+      default = false
+      label = "Padua"
+    },
+    {
+      fullName = "PA"
+      default = false
+      label = "Palermo"
+    },
+    {
+      fullName = "PA"
+      default = false
+      label = "Pará"
+    },
+    {
+      fullName = "PB"
+      default = false
+      label = "Paraíba"
+    },
+    {
+      fullName = "PR"
+      default = false
+      label = "Paraná"
+    },
+    {
+      fullName = "PR"
+      default = false
+      label = "Parma"
+    },
+    {
+      fullName = "PV"
+      default = false
+      label = "Pavia"
+    },
+    {
+      fullName = "PA"
+      default = false
+      label = "Pennsylvania"
+    },
+    {
+      fullName = "PE"
+      default = false
+      label = "Pernambuco"
+    },
+    {
+      fullName = "PG"
+      default = false
+      label = "Perugia"
+    },
+    {
+      fullName = "PU"
+      default = false
+      label = "Pesaro and Urbino"
+    },
+    {
+      fullName = "PE"
+      default = false
+      label = "Pescara"
+    },
+    {
+      fullName = "PC"
+      default = false
+      label = "Piacenza"
+    },
+    {
+      fullName = "PI"
+      default = false
+      label = "Piauí"
+    },
+    {
+      fullName = "PI"
+      default = false
+      label = "Pisa"
+    },
+    {
+      fullName = "PT"
+      default = false
+      label = "Pistoia"
+    },
+    {
+      fullName = "PN"
+      default = false
+      label = "Pordenone"
+    },
+    {
+      fullName = "PZ"
+      default = false
+      label = "Potenza"
+    },
+    {
+      fullName = "PO"
+      default = false
+      label = "Prato"
+    },
+    {
+      fullName = "PE"
+      default = false
+      label = "Prince Edward Island"
+    },
+    {
+      fullName = "PY"
+      default = false
+      label = "Puducherry"
+    },
+    {
+      fullName = "PB"
+      default = false
+      label = "Puebla"
+    },
+    {
+      fullName = "PB"
+      default = false
+      label = "Punjab"
+    },
+    {
+      fullName = "63"
+      default = false
+      label = "Qinghai"
+    },
+    {
+      fullName = "QC"
+      default = false
+      label = "Quebec"
+    },
+    {
+      fullName = "QLD"
+      default = false
+      label = "Queensland"
+    },
+    {
+      fullName = "QE"
+      default = false
+      label = "Querétaro"
+    },
+    {
+      fullName = "QR"
+      default = false
+      label = "Quintana Roo"
+    },
+    {
+      fullName = "RG"
+      default = false
+      label = "Ragusa"
+    },
+    {
+      fullName = "RJ"
+      default = false
+      label = "Rajasthan"
+    },
+    {
+      fullName = "RA"
+      default = false
+      label = "Ravenna"
+    },
+    {
+      fullName = "RC"
+      default = false
+      label = "Reggio Calabria"
+    },
+    {
+      fullName = "RE"
+      default = false
+      label = "Reggio Emilia"
+    },
+    {
+      fullName = "RI"
+      default = false
+      label = "Rhode Island"
+    },
+    {
+      fullName = "RI"
+      default = false
+      label = "Rieti"
+    },
+    {
+      fullName = "RN"
+      default = false
+      label = "Rimini"
+    },
+    {
+      fullName = "RJ"
+      default = false
+      label = "Rio de Janeiro"
+    },
+    {
+      fullName = "RN"
+      default = false
+      label = "Rio Grande do Norte"
+    },
+    {
+      fullName = "RS"
+      default = false
+      label = "Rio Grande do Sul"
+    },
+    {
+      fullName = "RM"
+      default = false
+      label = "Rome"
+    },
+    {
+      fullName = "RO"
+      default = false
+      label = "Rondônia"
+    },
+    {
+      fullName = "RR"
+      default = false
+      label = "Roraima"
+    },
+    {
+      fullName = "RN"
+      default = false
+      label = "Roscommon"
+    },
+    {
+      fullName = "RO"
+      default = false
+      label = "Rovigo"
+    },
+    {
+      fullName = "SA"
+      default = false
+      label = "Salerno"
+    },
+    {
+      fullName = "SL"
+      default = false
+      label = "San Luis Potosí"
+    },
+    {
+      fullName = "SC"
+      default = false
+      label = "Santa Catarina"
+    },
+    {
+      fullName = "SP"
+      default = false
+      label = "São Paulo"
+    },
+    {
+      fullName = "SK"
+      default = false
+      label = "Saskatchewan"
+    },
+    {
+      fullName = "SS"
+      default = false
+      label = "Sassari"
+    },
+    {
+      fullName = "SV"
+      default = false
+      label = "Savona"
+    },
+    {
+      fullName = "SE"
+      default = false
+      label = "Sergipe"
+    },
+    {
+      fullName = "61"
+      default = false
+      label = "Shaanxi"
+    },
+    {
+      fullName = "37"
+      default = false
+      label = "Shandong"
+    },
+    {
+      fullName = "31"
+      default = false
+      label = "Shanghai"
+    },
+    {
+      fullName = "14"
+      default = false
+      label = "Shanxi"
+    },
+    {
+      fullName = "51"
+      default = false
+      label = "Sichuan"
+    },
+    {
+      fullName = "SI"
+      default = false
+      label = "Siena"
+    },
+    {
+      fullName = "SK"
+      default = false
+      label = "Sikkim"
+    },
+    {
+      fullName = "SI"
+      default = false
+      label = "Sinaloa"
+    },
+    {
+      fullName = "SO"
+      default = false
+      label = "Sligo"
+    },
+    {
+      fullName = "SO"
+      default = false
+      label = "Sondrio"
+    },
+    {
+      fullName = "SO"
+      default = false
+      label = "Sonora"
+    },
+    {
+      fullName = "SA"
+      default = false
+      label = "South Australia"
+    },
+    {
+      fullName = "SC"
+      default = false
+      label = "South Carolina"
+    },
+    {
+      fullName = "SD"
+      default = false
+      label = "South Dakota"
+    },
+    {
+      fullName = "SR"
+      default = false
+      label = "Syracuse"
+    },
+    {
+      fullName = "TB"
+      default = false
+      label = "Tabasco"
+    },
+    {
+      fullName = "TM"
+      default = false
+      label = "Tamaulipas"
+    },
+    {
+      fullName = "TN"
+      default = false
+      label = "Tamil Nadu"
+    },
+    {
+      fullName = "TA"
+      default = false
+      label = "Taranto"
+    },
+    {
+      fullName = "TAS"
+      default = false
+      label = "Tasmania"
+    },
+    {
+      fullName = "TN"
+      default = false
+      label = "Tennessee"
+    },
+    {
+      fullName = "TE"
+      default = false
+      label = "Teramo"
+    },
+    {
+      fullName = "TR"
+      default = false
+      label = "Terni"
+    },
+    {
+      fullName = "TX"
+      default = false
+      label = "Texas"
+    },
+    {
+      fullName = "12"
+      default = false
+      label = "Tianjin"
+    },
+    {
+      fullName = "TA"
+      default = false
+      label = "Tipperary"
+    },
+    {
+      fullName = "TL"
+      default = false
+      label = "Tlaxcala"
+    },
+    {
+      fullName = "TO"
+      default = false
+      label = "Tocantins"
+    },
+    {
+      fullName = "TP"
+      default = false
+      label = "Trapani"
+    },
+    {
+      fullName = "TN"
+      default = false
+      label = "Trento"
+    },
+    {
+      fullName = "TV"
+      default = false
+      label = "Treviso"
+    },
+    {
+      fullName = "TS"
+      default = false
+      label = "Trieste"
+    },
+    {
+      fullName = "TR"
+      default = false
+      label = "Tripura"
+    },
+    {
+      fullName = "TO"
+      default = false
+      label = "Turin"
+    },
+    {
+      fullName = "UD"
+      default = false
+      label = "Udine"
+    },
+    {
+      fullName = "UT"
+      default = false
+      label = "Utah"
+    },
+    {
+      fullName = "UT"
+      default = false
+      label = "Uttarakhand"
+    },
+    {
+      fullName = "UP"
+      default = false
+      label = "Uttar Pradesh"
+    },
+    {
+      fullName = "VA"
+      default = false
+      label = "Varese"
+    },
+    {
+      fullName = "VE"
+      default = false
+      label = "Venice"
+    },
+    {
+      fullName = "VE"
+      default = false
+      label = "Veracruz"
+    },
+    {
+      fullName = "VB"
+      default = false
+      label = "Verbano-Cusio-Ossola"
+    },
+    {
+      fullName = "VC"
+      default = false
+      label = "Vercelli"
+    },
+    {
+      fullName = "VT"
+      default = false
+      label = "Vermont"
+    },
+    {
+      fullName = "VR"
+      default = false
+      label = "Verona"
+    },
+    {
+      fullName = "VV"
+      default = false
+      label = "Vibo Valentia"
+    },
+    {
+      fullName = "VI"
+      default = false
+      label = "Vicenza"
+    },
+    {
+      fullName = "VIC"
+      default = false
+      label = "Victoria"
+    },
+    {
+      fullName = "VA"
+      default = false
+      label = "Virginia"
+    },
+    {
+      fullName = "VT"
+      default = false
+      label = "Viterbo"
+    },
+    {
+      fullName = "WA"
+      default = false
+      label = "Washington"
+    },
+    {
+      fullName = "WD"
+      default = false
+      label = "Waterford"
+    },
+    {
+      fullName = "WB"
+      default = false
+      label = "West Bengal"
+    },
+    {
+      fullName = "WA"
+      default = false
+      label = "Western Australia"
+    },
+    {
+      fullName = "WH"
+      default = false
+      label = "Westmeath"
+    },
+    {
+      fullName = "WV"
+      default = false
+      label = "West Virginia"
+    },
+    {
+      fullName = "WX"
+      default = false
+      label = "Wexford"
+    },
+    {
+      fullName = "WW"
+      default = false
+      label = "Wicklow"
+    },
+    {
+      fullName = "WI"
+      default = false
+      label = "Wisconsin"
+    },
+    {
+      fullName = "WY"
+      default = false
+      label = "Wyoming"
+    },
+    {
+      fullName = "65"
+      default = false
+      label = "Xinjiang"
+    },
+    {
+      fullName = "54"
+      default = false
+      label = "Xizang"
+    },
+    {
+      fullName = "YU"
+      default = false
+      label = "Yucatán"
+    },
+    {
+      fullName = "YT"
+      default = false
+      label = "Yukon Territories"
+    },
+    {
+      fullName = "53"
+      default = false
+      label = "Yunnan"
+    },
+    {
+      fullName = "ZA"
+      default = false
+      label = "Zacatecas"
+    },
+    {
+      fullName = "33"
+      default = false
+      label = "Zhejiang"
+    },
+  ]
+}

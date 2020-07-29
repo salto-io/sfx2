@@ -1,0 +1,7 @@
+salesforce.ListView Lead_NA_Lead {
+  fullName = "Lead.NA_Lead"
+  filterScope = "Queue"
+  label = "NA"
+  queue = "NA"
+  _parent = salesforce.Lead
+}

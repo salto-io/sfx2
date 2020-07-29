@@ -1,0 +1,88 @@
+salesforce.CustomObjectTranslation SaltoData__c_en_US {
+  fullName = "SaltoData__c-en_US"
+  caseValues = [
+    {
+      plural = false
+      value = "SaltoData"
+    },
+    {
+      plural = true
+      value = "SaltoDatas"
+    },
+  ]
+  fields = [
+    {
+      name = "Account__c"
+    },
+    {
+      name = "Adapters_In_Use__c"
+      picklistValues = [
+        {
+          masterLabel = "Hubspot"
+        },
+        {
+          masterLabel = "Netsuite"
+        },
+        {
+          masterLabel = "Salesforce"
+        },
+      ]
+    },
+    {
+      name = "Expiration_date__c"
+    },
+    {
+      name = "GB_in_use__c"
+    },
+    {
+      name = "Is_Open_Source__c"
+    },
+    {
+      name = "Last_login__c"
+    },
+    {
+      name = "Logins_last_30d__c"
+    },
+    {
+      name = "Subscription_Tier__c"
+      picklistValues = [
+        {
+          masterLabel = "0-100GB"
+        },
+        {
+          masterLabel = "100-500GB"
+        },
+        {
+          masterLabel = ">500GB"
+        },
+      ]
+    },
+    {
+      name = "Subscription_level__c"
+      picklistValues = [
+        {
+          masterLabel = "Disabled"
+        },
+        {
+          masterLabel = "Free trial"
+        },
+        {
+          masterLabel = "Paying"
+        },
+        {
+          masterLabel = "Prospect"
+        },
+      ]
+    },
+    {
+      name = "Total_usd_Last_12m__c"
+    },
+    {
+      name = "Total_usd_Paid_Ever__c"
+    },
+  ]
+  startsWith = "Consonant"
+  _parent = [
+    salesforce.SaltoData__c,
+  ]
+}

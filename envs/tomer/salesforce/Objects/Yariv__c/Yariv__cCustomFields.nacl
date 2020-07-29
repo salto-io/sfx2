@@ -1,0 +1,284 @@
+type salesforce.Yariv__c {
+  salesforce.AutoNumber Yariv_Auto__c {
+    apiName = "Yariv__c.Yariv_Auto__c"
+    label = "Yariv Auto"
+    _required = true
+    inlineHelpText = "bla help text"
+    createable = false
+    updateable = false
+    description = "blabla description"
+    displayFormat = "YYY-{0000}"
+    externalId = false
+  }
+  salesforce.FormulaDateTime Yariv_Formula__c {
+    apiName = "Yariv__c.Yariv_Formula__c"
+    label = "Yariv Formula"
+    _required = false
+    formula = "NOW() + 2"
+    createable = false
+    updateable = false
+    formulaTreatBlanksAs = "BlankAsZero"
+  }
+  salesforce.Checkbox Yariv_Checkbox__c {
+    apiName = "Yariv__c.Yariv_Checkbox__c"
+    label = "Yariv Checkbox"
+    defaultValue = false
+    inlineHelpText = "Help Text bla bla"
+    createable = true
+    updateable = true
+    description = "Description bla bla"
+  }
+  salesforce.Currency Yariv_Currency__c {
+    apiName = "Yariv__c.Yariv_Currency__c"
+    label = "Yariv Currency"
+    _required = false
+    defaultValueFormula = "25"
+    inlineHelpText = "Help text bla bla"
+    createable = true
+    updateable = true
+    scale = 2
+    precision = 18
+    description = "Description bla bla"
+  }
+  salesforce.Date Yariv_Date__c {
+    apiName = "Yariv__c.Yariv_Date__c"
+    label = "Yariv Date"
+    _required = false
+    defaultValueFormula = "Today() + 7"
+    inlineHelpText = "Help bla"
+    createable = true
+    updateable = true
+    description = "Description bla"
+  }
+  salesforce.DateTime Yariv_Datetime__c {
+    apiName = "Yariv__c.Yariv_Datetime__c"
+    label = "Yariv Datetime"
+    _required = false
+    defaultValueFormula = "Now() + 7"
+    inlineHelpText = "Help bla"
+    createable = true
+    updateable = true
+    description = "Description bla"
+  }
+  salesforce.Email Yariv_Email__c {
+    apiName = "Yariv__c.Yariv_Email__c"
+    label = "Yariv Email"
+    _required = true
+    inlineHelpText = "Bla Help"
+    createable = true
+    updateable = true
+    unique = true
+    description = "Bla description"
+    externalId = false
+  }
+  salesforce.Location Yariv_Geolocation__c {
+    apiName = "Yariv__c.Yariv_Geolocation__c"
+    label = "Yariv Geolocation"
+    _required = false
+    scale = 2
+    inlineHelpText = "Bla Help"
+    createable = false
+    updateable = false
+    description = "Bla Description"
+    displayLocationInDecimal = false
+  }
+  salesforce.Number Yariv_Number__c {
+    apiName = "Yariv__c.Yariv_Number__c"
+    label = "Yariv Number"
+    _required = false
+    precision = 16
+    scale = 2
+    inlineHelpText = "bla help"
+    createable = true
+    updateable = true
+    unique = false
+    description = "bla description"
+    externalId = false
+  }
+  salesforce.Percent Yariv_Percent__c {
+    apiName = "Yariv__c.Yariv_Percent__c"
+    label = "Yariv Percent"
+    _required = false
+    inlineHelpText = "help"
+    createable = true
+    updateable = true
+    scale = 2
+    precision = 16
+    description = "description"
+  }
+  salesforce.Phone Yariv_Phone__c {
+    apiName = "Yariv__c.Yariv_Phone__c"
+    label = "Yariv Phone"
+    _required = false
+    inlineHelpText = "help"
+    createable = true
+    updateable = true
+    description = "description"
+  }
+  salesforce.Picklist Picklist_Yariv__c {
+    apiName = "Yariv__c.Picklist_Yariv__c"
+    label = "Picklist Yariv"
+    _required = false
+    valueSet = [
+      {
+        fullName = "do"
+        default = true
+        label = "do"
+      },
+      {
+        fullName = "fa"
+        default = false
+        label = "fa"
+      },
+      {
+        fullName = "la"
+        default = false
+        label = "la"
+      },
+      {
+        fullName = "mi"
+        default = false
+        label = "mi"
+      },
+      {
+        fullName = "re"
+        default = false
+        label = "re"
+      },
+      {
+        fullName = "so"
+        default = false
+        label = "so"
+      },
+    ]
+    restricted = true
+    inlineHelpText = "help"
+    createable = true
+    updateable = true
+    description = "description"
+    sorted = false
+  }
+  salesforce.MultiselectPicklist Yariv_Multipick__c {
+    apiName = "Yariv__c.Yariv_Multipick__c"
+    label = "Yariv Multipick"
+    _required = false
+    valueSet = [
+      {
+        fullName = "do"
+        default = true
+        label = "do"
+      },
+      {
+        fullName = "fa"
+        default = false
+        label = "fa"
+      },
+      {
+        fullName = "la"
+        default = false
+        label = "la"
+      },
+      {
+        fullName = "mi"
+        default = false
+        label = "mi"
+      },
+      {
+        fullName = "re"
+        default = false
+        label = "re"
+      },
+      {
+        fullName = "si"
+        default = false
+        label = "si"
+      },
+      {
+        fullName = "sol"
+        default = false
+        label = "sol"
+      },
+    ]
+    restricted = true
+    visibleLines = 4
+    inlineHelpText = "help"
+    createable = true
+    updateable = true
+    description = "description"
+    sorted = false
+  }
+  salesforce.Text Yariv_Text__c {
+    apiName = "Yariv__c.Yariv_Text__c"
+    label = "Yariv Text"
+    _required = false
+    inlineHelpText = "help bla"
+    createable = true
+    updateable = true
+    unique = true
+    caseSensitive = false
+    length = 24
+    description = "description for text bla"
+    externalId = false
+  }
+  salesforce.TextArea Yariv_Text_Area__c {
+    apiName = "Yariv__c.Yariv_Text_Area__c"
+    label = "Yariv Text Area"
+    _required = false
+    inlineHelpText = "bla help"
+    createable = true
+    updateable = true
+    description = "bla desc"
+  }
+  salesforce.LongTextArea Yariv_Text_Area_Long__c {
+    apiName = "Yariv__c.Yariv_Text_Area_Long__c"
+    label = "Yariv Text Area Long"
+    _required = false
+    inlineHelpText = "help bla"
+    createable = true
+    updateable = true
+    length = 32768
+    description = "desc bla"
+    visibleLines = 3
+  }
+  salesforce.Html Yariv_Text_Area_Rich__c {
+    apiName = "Yariv__c.Yariv_Text_Area_Rich__c"
+    label = "Yariv Text Area Rich"
+    _required = false
+    inlineHelpText = "bla help"
+    createable = true
+    updateable = true
+    length = 32768
+    description = "bla desc"
+    visibleLines = 25
+  }
+  salesforce.EncryptedText Yariv_Text_Encvrypted__c {
+    apiName = "Yariv__c.Yariv_Text_Encvrypted__c"
+    label = "Yariv Text Encvrypted"
+    _required = false
+    inlineHelpText = "bla help"
+    createable = true
+    updateable = true
+    maskType = "creditCard"
+    length = 32
+    description = "bla descv"
+    maskChar = "X"
+  }
+  salesforce.Time Yariv_Time__c {
+    apiName = "Yariv__c.Yariv_Time__c"
+    label = "Yariv Time"
+    _required = false
+    inlineHelpText = "bla help"
+    createable = true
+    updateable = true
+    description = "bla desc"
+  }
+  salesforce.Url Yariv_URL__c {
+    apiName = "Yariv__c.Yariv_URL__c"
+    label = "Yariv URL"
+    _required = false
+    inlineHelpText = "bla help"
+    createable = true
+    updateable = true
+    description = "bla desc"
+  }
+}

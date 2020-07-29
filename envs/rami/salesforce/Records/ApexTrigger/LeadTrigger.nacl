@@ -1,0 +1,6 @@
+salesforce.ApexTrigger LeadTrigger {
+  apiVersion = 48
+  status = "Active"
+  fullName = "LeadTrigger"
+  content = file("salesforce/triggers/LeadTrigger.trigger")
+}

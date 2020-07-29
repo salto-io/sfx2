@@ -1,0 +1,1201 @@
+salesforce.StandardValueSet AddressCountryCode {
+  fullName = "AddressCountryCode"
+  sorted = true
+  standardValue = [
+    {
+      fullName = "AF"
+      default = false
+      label = "Afghanistan"
+    },
+    {
+      fullName = "AX"
+      default = false
+      label = "Aland Islands"
+    },
+    {
+      fullName = "AL"
+      default = false
+      label = "Albania"
+    },
+    {
+      fullName = "DZ"
+      default = false
+      label = "Algeria"
+    },
+    {
+      fullName = "AD"
+      default = false
+      label = "Andorra"
+    },
+    {
+      fullName = "AO"
+      default = false
+      label = "Angola"
+    },
+    {
+      fullName = "AI"
+      default = false
+      label = "Anguilla"
+    },
+    {
+      fullName = "AQ"
+      default = false
+      label = "Antarctica"
+    },
+    {
+      fullName = "AG"
+      default = false
+      label = "Antigua and Barbuda"
+    },
+    {
+      fullName = "AR"
+      default = false
+      label = "Argentina"
+    },
+    {
+      fullName = "AM"
+      default = false
+      label = "Armenia"
+    },
+    {
+      fullName = "AW"
+      default = false
+      label = "Aruba"
+    },
+    {
+      fullName = "AU"
+      default = false
+      label = "Australia"
+    },
+    {
+      fullName = "AT"
+      default = false
+      label = "Austria"
+    },
+    {
+      fullName = "AZ"
+      default = false
+      label = "Azerbaijan"
+    },
+    {
+      fullName = "BS"
+      default = false
+      label = "Bahamas"
+    },
+    {
+      fullName = "BH"
+      default = false
+      label = "Bahrain"
+    },
+    {
+      fullName = "BD"
+      default = false
+      label = "Bangladesh"
+    },
+    {
+      fullName = "BB"
+      default = false
+      label = "Barbados"
+    },
+    {
+      fullName = "BY"
+      default = false
+      label = "Belarus"
+    },
+    {
+      fullName = "BE"
+      default = false
+      label = "Belgium"
+    },
+    {
+      fullName = "BZ"
+      default = false
+      label = "Belize"
+    },
+    {
+      fullName = "BJ"
+      default = false
+      label = "Benin"
+    },
+    {
+      fullName = "BM"
+      default = false
+      label = "Bermuda"
+    },
+    {
+      fullName = "BT"
+      default = false
+      label = "Bhutan"
+    },
+    {
+      fullName = "BO"
+      default = false
+      label = "Bolivia, Plurinational State of"
+    },
+    {
+      fullName = "BQ"
+      default = false
+      label = "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+      fullName = "BA"
+      default = false
+      label = "Bosnia and Herzegovina"
+    },
+    {
+      fullName = "BW"
+      default = false
+      label = "Botswana"
+    },
+    {
+      fullName = "BV"
+      default = false
+      label = "Bouvet Island"
+    },
+    {
+      fullName = "BR"
+      default = false
+      label = "Brazil"
+    },
+    {
+      fullName = "IO"
+      default = false
+      label = "British Indian Ocean Territory"
+    },
+    {
+      fullName = "BN"
+      default = false
+      label = "Brunei Darussalam"
+    },
+    {
+      fullName = "BG"
+      default = false
+      label = "Bulgaria"
+    },
+    {
+      fullName = "BF"
+      default = false
+      label = "Burkina Faso"
+    },
+    {
+      fullName = "BI"
+      default = false
+      label = "Burundi"
+    },
+    {
+      fullName = "KH"
+      default = false
+      label = "Cambodia"
+    },
+    {
+      fullName = "CM"
+      default = false
+      label = "Cameroon"
+    },
+    {
+      fullName = "CA"
+      default = false
+      label = "Canada"
+    },
+    {
+      fullName = "CV"
+      default = false
+      label = "Cape Verde"
+    },
+    {
+      fullName = "KY"
+      default = false
+      label = "Cayman Islands"
+    },
+    {
+      fullName = "CF"
+      default = false
+      label = "Central African Republic"
+    },
+    {
+      fullName = "TD"
+      default = false
+      label = "Chad"
+    },
+    {
+      fullName = "CL"
+      default = false
+      label = "Chile"
+    },
+    {
+      fullName = "CN"
+      default = false
+      label = "China"
+    },
+    {
+      fullName = "TW"
+      default = false
+      label = "Chinese Taipei"
+    },
+    {
+      fullName = "CX"
+      default = false
+      label = "Christmas Island"
+    },
+    {
+      fullName = "CC"
+      default = false
+      label = "Cocos (Keeling) Islands"
+    },
+    {
+      fullName = "CO"
+      default = false
+      label = "Colombia"
+    },
+    {
+      fullName = "KM"
+      default = false
+      label = "Comoros"
+    },
+    {
+      fullName = "CG"
+      default = false
+      label = "Congo"
+    },
+    {
+      fullName = "CD"
+      default = false
+      label = "Congo, the Democratic Republic of the"
+    },
+    {
+      fullName = "CK"
+      default = false
+      label = "Cook Islands"
+    },
+    {
+      fullName = "CR"
+      default = false
+      label = "Costa Rica"
+    },
+    {
+      fullName = "CI"
+      default = false
+      label = "Cote d'Ivoire"
+    },
+    {
+      fullName = "HR"
+      default = false
+      label = "Croatia"
+    },
+    {
+      fullName = "CU"
+      default = false
+      label = "Cuba"
+    },
+    {
+      fullName = "CW"
+      default = false
+      label = "Curaçao"
+    },
+    {
+      fullName = "CY"
+      default = false
+      label = "Cyprus"
+    },
+    {
+      fullName = "CZ"
+      default = false
+      label = "Czech Republic"
+    },
+    {
+      fullName = "DK"
+      default = false
+      label = "Denmark"
+    },
+    {
+      fullName = "DJ"
+      default = false
+      label = "Djibouti"
+    },
+    {
+      fullName = "DM"
+      default = false
+      label = "Dominica"
+    },
+    {
+      fullName = "DO"
+      default = false
+      label = "Dominican Republic"
+    },
+    {
+      fullName = "EC"
+      default = false
+      label = "Ecuador"
+    },
+    {
+      fullName = "EG"
+      default = false
+      label = "Egypt"
+    },
+    {
+      fullName = "SV"
+      default = false
+      label = "El Salvador"
+    },
+    {
+      fullName = "GQ"
+      default = false
+      label = "Equatorial Guinea"
+    },
+    {
+      fullName = "ER"
+      default = false
+      label = "Eritrea"
+    },
+    {
+      fullName = "EE"
+      default = false
+      label = "Estonia"
+    },
+    {
+      fullName = "ET"
+      default = false
+      label = "Ethiopia"
+    },
+    {
+      fullName = "FK"
+      default = false
+      label = "Falkland Islands (Malvinas)"
+    },
+    {
+      fullName = "FO"
+      default = false
+      label = "Faroe Islands"
+    },
+    {
+      fullName = "FJ"
+      default = false
+      label = "Fiji"
+    },
+    {
+      fullName = "FI"
+      default = false
+      label = "Finland"
+    },
+    {
+      fullName = "FR"
+      default = false
+      label = "France"
+    },
+    {
+      fullName = "GF"
+      default = false
+      label = "French Guiana"
+    },
+    {
+      fullName = "PF"
+      default = false
+      label = "French Polynesia"
+    },
+    {
+      fullName = "TF"
+      default = false
+      label = "French Southern Territories"
+    },
+    {
+      fullName = "GA"
+      default = false
+      label = "Gabon"
+    },
+    {
+      fullName = "GM"
+      default = false
+      label = "Gambia"
+    },
+    {
+      fullName = "GE"
+      default = false
+      label = "Georgia"
+    },
+    {
+      fullName = "DE"
+      default = false
+      label = "Germany"
+    },
+    {
+      fullName = "GH"
+      default = false
+      label = "Ghana"
+    },
+    {
+      fullName = "GI"
+      default = false
+      label = "Gibraltar"
+    },
+    {
+      fullName = "GR"
+      default = false
+      label = "Greece"
+    },
+    {
+      fullName = "GL"
+      default = false
+      label = "Greenland"
+    },
+    {
+      fullName = "GD"
+      default = false
+      label = "Grenada"
+    },
+    {
+      fullName = "GP"
+      default = false
+      label = "Guadeloupe"
+    },
+    {
+      fullName = "GT"
+      default = false
+      label = "Guatemala"
+    },
+    {
+      fullName = "GG"
+      default = false
+      label = "Guernsey"
+    },
+    {
+      fullName = "GN"
+      default = false
+      label = "Guinea"
+    },
+    {
+      fullName = "GW"
+      default = false
+      label = "Guinea-Bissau"
+    },
+    {
+      fullName = "GY"
+      default = false
+      label = "Guyana"
+    },
+    {
+      fullName = "HT"
+      default = false
+      label = "Haiti"
+    },
+    {
+      fullName = "HM"
+      default = false
+      label = "Heard Island and McDonald Islands"
+    },
+    {
+      fullName = "VA"
+      default = false
+      label = "Holy See (Vatican City State)"
+    },
+    {
+      fullName = "HN"
+      default = false
+      label = "Honduras"
+    },
+    {
+      fullName = "HU"
+      default = false
+      label = "Hungary"
+    },
+    {
+      fullName = "IS"
+      default = false
+      label = "Iceland"
+    },
+    {
+      fullName = "IN"
+      default = false
+      label = "India"
+    },
+    {
+      fullName = "ID"
+      default = false
+      label = "Indonesia"
+    },
+    {
+      fullName = "IR"
+      default = false
+      label = "Iran, Islamic Republic of"
+    },
+    {
+      fullName = "IQ"
+      default = false
+      label = "Iraq"
+    },
+    {
+      fullName = "IE"
+      default = false
+      label = "Ireland"
+    },
+    {
+      fullName = "IM"
+      default = false
+      label = "Isle of Man"
+    },
+    {
+      fullName = "IL"
+      default = false
+      label = "Israel"
+    },
+    {
+      fullName = "IT"
+      default = false
+      label = "Italy"
+    },
+    {
+      fullName = "JM"
+      default = false
+      label = "Jamaica"
+    },
+    {
+      fullName = "JP"
+      default = false
+      label = "Japan"
+    },
+    {
+      fullName = "JE"
+      default = false
+      label = "Jersey"
+    },
+    {
+      fullName = "JO"
+      default = false
+      label = "Jordan"
+    },
+    {
+      fullName = "KZ"
+      default = false
+      label = "Kazakhstan"
+    },
+    {
+      fullName = "KE"
+      default = false
+      label = "Kenya"
+    },
+    {
+      fullName = "KI"
+      default = false
+      label = "Kiribati"
+    },
+    {
+      fullName = "KP"
+      default = false
+      label = "Korea, Democratic People's Republic of"
+    },
+    {
+      fullName = "KR"
+      default = false
+      label = "Korea, Republic of"
+    },
+    {
+      fullName = "KW"
+      default = false
+      label = "Kuwait"
+    },
+    {
+      fullName = "KG"
+      default = false
+      label = "Kyrgyzstan"
+    },
+    {
+      fullName = "LA"
+      default = false
+      label = "Lao People's Democratic Republic"
+    },
+    {
+      fullName = "LV"
+      default = false
+      label = "Latvia"
+    },
+    {
+      fullName = "LB"
+      default = false
+      label = "Lebanon"
+    },
+    {
+      fullName = "LS"
+      default = false
+      label = "Lesotho"
+    },
+    {
+      fullName = "LR"
+      default = false
+      label = "Liberia"
+    },
+    {
+      fullName = "LY"
+      default = false
+      label = "Libyan Arab Jamahiriya"
+    },
+    {
+      fullName = "LI"
+      default = false
+      label = "Liechtenstein"
+    },
+    {
+      fullName = "LT"
+      default = false
+      label = "Lithuania"
+    },
+    {
+      fullName = "LU"
+      default = false
+      label = "Luxembourg"
+    },
+    {
+      fullName = "MO"
+      default = false
+      label = "Macao"
+    },
+    {
+      fullName = "MK"
+      default = false
+      label = "Macedonia, the former Yugoslav Republic of"
+    },
+    {
+      fullName = "MG"
+      default = false
+      label = "Madagascar"
+    },
+    {
+      fullName = "MW"
+      default = false
+      label = "Malawi"
+    },
+    {
+      fullName = "MY"
+      default = false
+      label = "Malaysia"
+    },
+    {
+      fullName = "MV"
+      default = false
+      label = "Maldives"
+    },
+    {
+      fullName = "ML"
+      default = false
+      label = "Mali"
+    },
+    {
+      fullName = "MT"
+      default = false
+      label = "Malta"
+    },
+    {
+      fullName = "MQ"
+      default = false
+      label = "Martinique"
+    },
+    {
+      fullName = "MR"
+      default = false
+      label = "Mauritania"
+    },
+    {
+      fullName = "MU"
+      default = false
+      label = "Mauritius"
+    },
+    {
+      fullName = "YT"
+      default = false
+      label = "Mayotte"
+    },
+    {
+      fullName = "MX"
+      default = false
+      label = "Mexico"
+    },
+    {
+      fullName = "MD"
+      default = false
+      label = "Moldova, Republic of"
+    },
+    {
+      fullName = "MC"
+      default = false
+      label = "Monaco"
+    },
+    {
+      fullName = "MN"
+      default = false
+      label = "Mongolia"
+    },
+    {
+      fullName = "ME"
+      default = false
+      label = "Montenegro"
+    },
+    {
+      fullName = "MS"
+      default = false
+      label = "Montserrat"
+    },
+    {
+      fullName = "MA"
+      default = false
+      label = "Morocco"
+    },
+    {
+      fullName = "MZ"
+      default = false
+      label = "Mozambique"
+    },
+    {
+      fullName = "MM"
+      default = false
+      label = "Myanmar"
+    },
+    {
+      fullName = "NA"
+      default = false
+      label = "Namibia"
+    },
+    {
+      fullName = "NR"
+      default = false
+      label = "Nauru"
+    },
+    {
+      fullName = "NP"
+      default = false
+      label = "Nepal"
+    },
+    {
+      fullName = "NL"
+      default = false
+      label = "Netherlands"
+    },
+    {
+      fullName = "NC"
+      default = false
+      label = "New Caledonia"
+    },
+    {
+      fullName = "NZ"
+      default = false
+      label = "New Zealand"
+    },
+    {
+      fullName = "NI"
+      default = false
+      label = "Nicaragua"
+    },
+    {
+      fullName = "NE"
+      default = false
+      label = "Niger"
+    },
+    {
+      fullName = "NG"
+      default = false
+      label = "Nigeria"
+    },
+    {
+      fullName = "NU"
+      default = false
+      label = "Niue"
+    },
+    {
+      fullName = "NF"
+      default = false
+      label = "Norfolk Island"
+    },
+    {
+      fullName = "NO"
+      default = false
+      label = "Norway"
+    },
+    {
+      fullName = "OM"
+      default = false
+      label = "Oman"
+    },
+    {
+      fullName = "PK"
+      default = false
+      label = "Pakistan"
+    },
+    {
+      fullName = "PS"
+      default = false
+      label = "Palestinian Territory, Occupied"
+    },
+    {
+      fullName = "PA"
+      default = false
+      label = "Panama"
+    },
+    {
+      fullName = "PG"
+      default = false
+      label = "Papua New Guinea"
+    },
+    {
+      fullName = "PY"
+      default = false
+      label = "Paraguay"
+    },
+    {
+      fullName = "PE"
+      default = false
+      label = "Peru"
+    },
+    {
+      fullName = "PH"
+      default = false
+      label = "Philippines"
+    },
+    {
+      fullName = "PN"
+      default = false
+      label = "Pitcairn"
+    },
+    {
+      fullName = "PL"
+      default = false
+      label = "Poland"
+    },
+    {
+      fullName = "PT"
+      default = false
+      label = "Portugal"
+    },
+    {
+      fullName = "QA"
+      default = false
+      label = "Qatar"
+    },
+    {
+      fullName = "RE"
+      default = false
+      label = "Reunion"
+    },
+    {
+      fullName = "RO"
+      default = false
+      label = "Romania"
+    },
+    {
+      fullName = "RU"
+      default = false
+      label = "Russian Federation"
+    },
+    {
+      fullName = "RW"
+      default = false
+      label = "Rwanda"
+    },
+    {
+      fullName = "BL"
+      default = false
+      label = "Saint Barthélemy"
+    },
+    {
+      fullName = "SH"
+      default = false
+      label = "Saint Helena, Ascension and Tristan da Cunha"
+    },
+    {
+      fullName = "KN"
+      default = false
+      label = "Saint Kitts and Nevis"
+    },
+    {
+      fullName = "LC"
+      default = false
+      label = "Saint Lucia"
+    },
+    {
+      fullName = "MF"
+      default = false
+      label = "Saint Martin (French part)"
+    },
+    {
+      fullName = "PM"
+      default = false
+      label = "Saint Pierre and Miquelon"
+    },
+    {
+      fullName = "VC"
+      default = false
+      label = "Saint Vincent and the Grenadines"
+    },
+    {
+      fullName = "WS"
+      default = false
+      label = "Samoa"
+    },
+    {
+      fullName = "SM"
+      default = false
+      label = "San Marino"
+    },
+    {
+      fullName = "ST"
+      default = false
+      label = "Sao Tome and Principe"
+    },
+    {
+      fullName = "SA"
+      default = false
+      label = "Saudi Arabia"
+    },
+    {
+      fullName = "SN"
+      default = false
+      label = "Senegal"
+    },
+    {
+      fullName = "RS"
+      default = false
+      label = "Serbia"
+    },
+    {
+      fullName = "SC"
+      default = false
+      label = "Seychelles"
+    },
+    {
+      fullName = "SL"
+      default = false
+      label = "Sierra Leone"
+    },
+    {
+      fullName = "SG"
+      default = false
+      label = "Singapore"
+    },
+    {
+      fullName = "SX"
+      default = false
+      label = "Sint Maarten (Dutch part)"
+    },
+    {
+      fullName = "SK"
+      default = false
+      label = "Slovakia"
+    },
+    {
+      fullName = "SI"
+      default = false
+      label = "Slovenia"
+    },
+    {
+      fullName = "SB"
+      default = false
+      label = "Solomon Islands"
+    },
+    {
+      fullName = "SO"
+      default = false
+      label = "Somalia"
+    },
+    {
+      fullName = "ZA"
+      default = false
+      label = "South Africa"
+    },
+    {
+      fullName = "GS"
+      default = false
+      label = "South Georgia and the South Sandwich Islands"
+    },
+    {
+      fullName = "SS"
+      default = false
+      label = "South Sudan"
+    },
+    {
+      fullName = "ES"
+      default = false
+      label = "Spain"
+    },
+    {
+      fullName = "LK"
+      default = false
+      label = "Sri Lanka"
+    },
+    {
+      fullName = "SD"
+      default = false
+      label = "Sudan"
+    },
+    {
+      fullName = "SR"
+      default = false
+      label = "Suriname"
+    },
+    {
+      fullName = "SJ"
+      default = false
+      label = "Svalbard and Jan Mayen"
+    },
+    {
+      fullName = "SZ"
+      default = false
+      label = "Swaziland"
+    },
+    {
+      fullName = "SE"
+      default = false
+      label = "Sweden"
+    },
+    {
+      fullName = "CH"
+      default = false
+      label = "Switzerland"
+    },
+    {
+      fullName = "SY"
+      default = false
+      label = "Syrian Arab Republic"
+    },
+    {
+      fullName = "TJ"
+      default = false
+      label = "Tajikistan"
+    },
+    {
+      fullName = "TZ"
+      default = false
+      label = "Tanzania, United Republic of"
+    },
+    {
+      fullName = "TH"
+      default = false
+      label = "Thailand"
+    },
+    {
+      fullName = "TL"
+      default = false
+      label = "Timor-Leste"
+    },
+    {
+      fullName = "TG"
+      default = false
+      label = "Togo"
+    },
+    {
+      fullName = "TK"
+      default = false
+      label = "Tokelau"
+    },
+    {
+      fullName = "TO"
+      default = false
+      label = "Tonga"
+    },
+    {
+      fullName = "TT"
+      default = false
+      label = "Trinidad and Tobago"
+    },
+    {
+      fullName = "TN"
+      default = false
+      label = "Tunisia"
+    },
+    {
+      fullName = "TR"
+      default = false
+      label = "Turkey"
+    },
+    {
+      fullName = "TM"
+      default = false
+      label = "Turkmenistan"
+    },
+    {
+      fullName = "TC"
+      default = false
+      label = "Turks and Caicos Islands"
+    },
+    {
+      fullName = "TV"
+      default = false
+      label = "Tuvalu"
+    },
+    {
+      fullName = "UG"
+      default = false
+      label = "Uganda"
+    },
+    {
+      fullName = "UA"
+      default = false
+      label = "Ukraine"
+    },
+    {
+      fullName = "AE"
+      default = false
+      label = "United Arab Emirates"
+    },
+    {
+      fullName = "GB"
+      default = false
+      label = "United Kingdom"
+    },
+    {
+      fullName = "US"
+      default = true
+      label = "United States"
+    },
+    {
+      fullName = "UY"
+      default = false
+      label = "Uruguay"
+    },
+    {
+      fullName = "UZ"
+      default = false
+      label = "Uzbekistan"
+    },
+    {
+      fullName = "VU"
+      default = false
+      label = "Vanuatu"
+    },
+    {
+      fullName = "VE"
+      default = false
+      label = "Venezuela, Bolivarian Republic of"
+    },
+    {
+      fullName = "VN"
+      default = false
+      label = "Viet Nam"
+    },
+    {
+      fullName = "VG"
+      default = false
+      label = "Virgin Islands, British"
+    },
+    {
+      fullName = "WF"
+      default = false
+      label = "Wallis and Futuna"
+    },
+    {
+      fullName = "EH"
+      default = false
+      label = "Western Sahara"
+    },
+    {
+      fullName = "YE"
+      default = false
+      label = "Yemen"
+    },
+    {
+      fullName = "ZM"
+      default = false
+      label = "Zambia"
+    },
+    {
+      fullName = "ZW"
+      default = false
+      label = "Zimbabwe"
+    },
+  ]
+}
