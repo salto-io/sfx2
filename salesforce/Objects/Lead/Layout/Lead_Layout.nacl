@@ -52,6 +52,10 @@ salesforce.Layout Lead_Layout {
               behavior = "Edit"
               field = salesforce.Lead.field.Score__c
             },
+            {
+              behavior = "Readonly"
+              field = salesforce.Lead.field.Region__c
+            },
           ]
         },
         {
