@@ -1,0 +1,47 @@
+salesforce.AssignmentRules Lead {
+  assignmentRule = [
+    {
+      active = true
+      fullName = "Sales Regions"
+      ruleEntry = [
+        {
+          assignedTo = "NA"
+          assignedToType = "Queue"
+          criteriaItems = {
+            field = salesforce.Lead.field.Region__c
+            operation = "equals"
+            value = "NA"
+          }
+        },
+        {
+          assignedTo = "APAC"
+          assignedToType = "Queue"
+          criteriaItems = {
+            field = salesforce.Lead.field.Region__c
+            operation = "equals"
+            value = "APAC"
+          }
+        },
+        {
+          assignedTo = "EMEA"
+          assignedToType = "Queue"
+          criteriaItems = {
+            field = salesforce.Lead.field.Region__c
+            operation = "equals"
+            value = "EMEA"
+          }
+        },
+        {
+          assignedTo = "Other"
+          assignedToType = "Queue"
+          criteriaItems = {
+            field = salesforce.Lead.field.Region__c
+            operation = "equals"
+            value = "OTHER"
+          }
+        },
+      ]
+    },
+  ]
+  fullName = "Lead"
+}

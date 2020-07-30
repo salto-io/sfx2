@@ -59,4 +59,28 @@ type salesforce.Lead {
     unique = false
     updateable = true
   }
+  salesforce.FormulaText Region__c {
+    _required = false
+    apiName = "Lead.Region__c"
+    caseSensitive = false
+    createable = false
+    description = "assign region based on the lead country"
+    externalId = false
+    formula = '''
+CASE(Country,
+"United States", "NA",
+"Canada", "NA",
+"United Kingdom", "EMEA",
+"Germany", "EMEA",
+"Israel", "EMEA",
+"Japan", "APAC",
+"China", "APAC",
+"OTHER")
+'''
+    formulaTreatBlanksAs = "BlankAsZero"
+    label = "Region"
+    length = 1300
+    unique = false
+    updateable = false
+  }
 }
