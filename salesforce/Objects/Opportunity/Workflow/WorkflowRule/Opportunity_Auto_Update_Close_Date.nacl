@@ -1,5 +1,4 @@
 salesforce.WorkflowRule Opportunity_Auto_Update_Close_Date {
-  fullName = "Opportunity.Auto Update Close Date"
   actions = [
     {
       name = salesforce.WorkflowFieldUpdate.instance.Opportunity_Set_Close_Date
@@ -14,8 +13,6 @@ salesforce.WorkflowRule Opportunity_Auto_Update_Close_Date {
       value = "True"
     },
   ]
+  fullName = "Opportunity.Auto Update Close Date"
   triggerType = "onCreateOrTriggeringUpdate"
-  _parent = [
-    salesforce.Opportunity,
-  ]
 }
