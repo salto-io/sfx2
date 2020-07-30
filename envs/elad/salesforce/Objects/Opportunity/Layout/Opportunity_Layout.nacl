@@ -41,6 +41,10 @@ salesforce.Layout Opportunity_Layout {
               behavior = "Edit"
               field = salesforce.Opportunity.field.Loss_Reason__c
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Opportunity.field.Rating__c
+            },
           ]
         },
         {
