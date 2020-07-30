@@ -1,0 +1,29 @@
+type salesforce.Opportunity {
+  salesforce.Picklist Rating__c {
+    apiName = "Opportunity.Rating__c"
+    label = "Rating"
+    _required = false
+    valueSet = [
+      {
+        fullName = "Hot"
+        default = false
+        label = "Hot"
+      },
+      {
+        fullName = "Medium"
+        default = false
+        label = "Medium"
+      },
+      {
+        fullName = "Cold"
+        default = false
+        label = "Cold"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    description = "How likely this opp is to maintain momentum"
+    sorted = false
+  }
+}

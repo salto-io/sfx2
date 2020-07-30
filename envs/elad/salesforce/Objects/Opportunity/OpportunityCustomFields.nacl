@@ -56,4 +56,5 @@ type salesforce.Opportunity {
     updateable = true
     sorted = false
   }
+  
 }

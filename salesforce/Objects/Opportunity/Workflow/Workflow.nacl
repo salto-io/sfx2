@@ -1,0 +1,9 @@
+salesforce.Workflow Opportunity {
+  fieldUpdates = [
+    salesforce.WorkflowFieldUpdate.instance.Opportunity_Set_Close_Date,
+  ]
+  fullName = "Opportunity"
+  rules = [
+    salesforce.WorkflowRule.instance.Opportunity_Auto_Update_Close_Date,
+  ]
+}

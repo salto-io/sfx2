@@ -1,0 +1,6 @@
+salesforce.ValidationRule Opportunity_OPP_VR1_Won_Must_Have_Line_Items {
+  active = true
+  errorConditionFormula = "IsWon && NOT(HasOpportunityLineItem)"
+  errorMessage = "[OPP_VR1] Won opportunities must have at least one line item."
+  fullName = "Opportunity.OPP_VR1_Won_Must_Have_Line_Items"
+}
