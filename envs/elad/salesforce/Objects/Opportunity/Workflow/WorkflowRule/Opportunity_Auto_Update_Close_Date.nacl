@@ -1,0 +1,21 @@
+salesforce.WorkflowRule Opportunity_Auto_Update_Close_Date {
+  fullName = "Opportunity.Auto Update Close Date"
+  actions = [
+    {
+      name = salesforce.WorkflowFieldUpdate.instance.Opportunity_Set_Close_Date
+      type = "FieldUpdate"
+    },
+  ]
+  active = false
+  criteriaItems = [
+    {
+      field = salesforce.Opportunity.field.IsClosed
+      operation = "equals"
+      value = "True"
+    },
+  ]
+  triggerType = "onCreateOrTriggeringUpdate"
+  _parent = [
+    salesforce.Opportunity,
+  ]
+}
