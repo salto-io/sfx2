@@ -1,0 +1,12 @@
+salesforce.ValidationRule Lead_disqualification_reason_required {
+  active = true
+  description = "disqualification reason required when lead is disqualified"
+  errorConditionFormula = '''
+AND(
+ISPICKVAL( Status  , "Unqualified"),
+ISPICKVAL(Disqualified_Reason__c,"")
+)
+'''
+  errorMessage = "Disqualification reason must not be empty when lead is unqualified"
+  fullName = "Lead.disqualification_reason_required"
+}

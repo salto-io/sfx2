@@ -1,0 +1,6 @@
+salesforce.ApexClass LeadUtils {
+  apiVersion = 49
+  status = "Active"
+  fullName = "LeadUtils"
+  content = file("salesforce/classes/LeadUtils.cls")
+}

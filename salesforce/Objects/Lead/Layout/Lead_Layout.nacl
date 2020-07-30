@@ -48,6 +48,10 @@ salesforce.Layout Lead_Layout {
               behavior = "Readonly"
               field = salesforce.Lead.field.Age__c
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Lead.field.Score__c
+            },
           ]
         },
         {

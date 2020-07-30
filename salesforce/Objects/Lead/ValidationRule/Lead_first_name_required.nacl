@@ -1,0 +1,7 @@
+salesforce.ValidationRule Lead_first_name_required {
+  active = true
+  description = "first name is required"
+  errorConditionFormula = "ISBLANK( FirstName )"
+  errorMessage = "first name must not be empty"
+  fullName = "Lead.first_name_required"
+}

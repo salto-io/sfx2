@@ -47,4 +47,16 @@ type salesforce.Lead {
     label = "Domain"
     updateable = true
   }
+  salesforce.Number Score__c {
+    _required = false
+    apiName = "Lead.Score__c"
+    createable = true
+    description = "The score of the lead"
+    externalId = false
+    label = "Score"
+    precision = 18
+    scale = 0
+    unique = false
+    updateable = true
+  }
 }

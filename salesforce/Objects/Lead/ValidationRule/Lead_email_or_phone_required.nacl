@@ -1,0 +1,12 @@
+salesforce.ValidationRule Lead_email_or_phone_required {
+  active = true
+  description = "Make sure that a lead always had a non empty email or phone"
+  errorConditionFormula = '''
+AND(
+ISBLANK(Phone),
+ISBLANK(Email)
+)
+'''
+  errorMessage = "Email or Phone must not be empty"
+  fullName = "Lead.email_or_phone_required"
+}
