@@ -8,9 +8,9 @@ salesforce.StandardValueSet OpportunityType {
       label = "New Business"
     },
     {
-      fullName = "Existing Business"
+      fullName = "Renewal / Expansion"
       default = false
-      label = "Existing Business"
+      label = "Renewal / Expansion"
     },
   ]
 }
