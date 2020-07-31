@@ -40,6 +40,10 @@ salesforce.Layout Account_Layout {
               behavior = "Edit"
               field = salesforce.Account.field.Score__c
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.Status__c
+            },
           ]
         },
         {

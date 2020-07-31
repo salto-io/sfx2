@@ -1,0 +1,61 @@
+type salesforce.Account {
+  salesforce.Url Domain__c {
+    _required = false
+    apiName = "Account.Domain__c"
+    createable = true
+    label = "Domain"
+    updateable = true
+  }
+  salesforce.Number Score__c {
+    _required = false
+    apiName = "Account.Score__c"
+    createable = true
+    description = "Denotes the max score of any contact in this account"
+    externalId = false
+    label = "Score"
+    precision = 18
+    scale = 0
+    unique = false
+    updateable = true
+  }
+  salesforce.Picklist Status__c {
+    _required = false
+    apiName = "Account.Status__c"
+    createable = true
+    description = "The status of this account (active, churned, etc)"
+    label = "Status"
+    restricted = true
+    sorted = false
+    updateable = true
+    valueSet = [
+      {
+        default = false
+        fullName = "Prospect"
+        label = "Prospect"
+      },
+      {
+        default = false
+        fullName = "Active"
+        label = "Active"
+      },
+      {
+        default = false
+        fullName = "Churned"
+        label = "Churned"
+      },
+    ]
+  }
+  salesforce.Lookup Yariv_ref__c {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Account.Yariv_ref__c"
+    createable = true
+    description = "desc bla bla"
+    inlineHelpText = "help bla bla"
+    label = "Yariv ref"
+    referenceTo = [
+      "Yariv__c",
+    ]
+    updateable = true
+  }
+}
