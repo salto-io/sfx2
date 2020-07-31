@@ -1,5 +1,4 @@
 salesforce.Layout Account_Layout {
-  fullName = "Account-Account Layout"
   excludeButtons = [
     "DataDotComCompanyHierarchy",
     "DisableCustomerPortalAccount",
@@ -7,6 +6,7 @@ salesforce.Layout Account_Layout {
     "IncludeOffline",
     "Share",
   ]
+  fullName = "Account-Account Layout"
   layoutSections = [
     {
       customLabel = false
@@ -39,6 +39,10 @@ salesforce.Layout Account_Layout {
             {
               behavior = "Edit"
               field = salesforce.Account.field.Score__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.Status__c
             },
           ]
         },
@@ -382,7 +386,4 @@ salesforce.Layout Account_Layout {
     sizeY = 0
     summaryLayoutStyle = "Default"
   }
-  _parent = [
-    salesforce.Account,
-  ]
 }
