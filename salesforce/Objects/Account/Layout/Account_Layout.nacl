@@ -44,6 +44,22 @@ salesforce.Layout Account_Layout {
               behavior = "Edit"
               field = salesforce.Account.field.Status__c
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.Tier__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.AdaptersOfInterest__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.SFDC_Team_Size__c
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.Account.field.Git_In_Use__c
+            },
           ]
         },
         {

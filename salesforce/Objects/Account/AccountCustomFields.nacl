@@ -58,4 +58,85 @@ type salesforce.Account {
     ]
     updateable = true
   }
+  salesforce.Picklist AdaptersOfInterest__c {
+    _required = false
+    apiName = "Account.AdaptersOfInterest__c"
+    createable = true
+    label = "AdaptersOfInterest"
+    restricted = true
+    sorted = false
+    updateable = true
+    valueSet = [
+      {
+        default = false
+        fullName = "Salesforce"
+        label = "Salesforce"
+      },
+      {
+        default = false
+        fullName = "Netsuite"
+        label = "Netsuite"
+      },
+      {
+        default = false
+        fullName = "Hubspot"
+        label = "Hubspot"
+      },
+      {
+        default = false
+        fullName = "Workday"
+        label = "Workday"
+      },
+      {
+        default = false
+        fullName = "Marketo"
+        label = "Marketo"
+      },
+    ]
+  }
+  salesforce.Checkbox Git_In_Use__c {
+    apiName = "Account.Git_In_Use__c"
+    createable = true
+    defaultValue = false
+    label = "Git In Use"
+    updateable = true
+  }
+  salesforce.Number SFDC_Team_Size__c {
+    _required = false
+    apiName = "Account.SFDC_Team_Size__c"
+    createable = true
+    description = "Number of SFDC dev/admins in the company"
+    externalId = false
+    label = "SFDC Team Size"
+    precision = 18
+    scale = 0
+    unique = false
+    updateable = true
+  }
+  salesforce.Picklist Tier__c {
+    _required = false
+    apiName = "Account.Tier__c"
+    createable = true
+    label = "Tier"
+    restricted = true
+    sorted = false
+    updateable = true
+    valueSet = [
+      {
+        default = false
+        fullName = "Small Business"
+        label = "Small Business"
+      },
+      {
+        default = false
+        fullName = "Medium Business"
+        label = "Medium Business"
+      },
+      {
+        default = false
+        fullName = "Large Enterprise"
+        label = "Large Enterprise"
+      },
+    ]
+  }
 }
