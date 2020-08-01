@@ -3,29 +3,34 @@ salesforce.StandardValueSet LeadSource {
   sorted = false
   standardValue = [
     {
-      default = false
       fullName = "Partner"
+      default = false
       label = "Partner"
     },
     {
-      default = false
       fullName = "Webinar"
+      default = false
       label = "Webinar"
     },
     {
-      default = false
       fullName = "Other"
+      default = false
       label = "Other"
     },
     {
-      default = false
       fullName = "Employee Referral"
+      default = false
       label = "Employee Referral"
     },
     {
-      default = false
       fullName = "Customer Event"
+      default = false
       label = "Customer Event"
+    },
+    {
+      fullName = "Website"
+      default = false
+      label = "Website"
     },
   ]
 }
