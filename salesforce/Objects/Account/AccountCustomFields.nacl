@@ -1,0 +1,142 @@
+type salesforce.Account {
+  salesforce.Url Domain__c {
+    _required = false
+    apiName = "Account.Domain__c"
+    createable = true
+    label = "Domain"
+    updateable = true
+  }
+  salesforce.Number Score__c {
+    _required = false
+    apiName = "Account.Score__c"
+    createable = true
+    description = "Denotes the max score of any contact in this account"
+    externalId = false
+    label = "Score"
+    precision = 18
+    scale = 0
+    unique = false
+    updateable = true
+  }
+  salesforce.Picklist Status__c {
+    _required = false
+    apiName = "Account.Status__c"
+    createable = true
+    description = "The status of this account (active, churned, etc)"
+    label = "Status"
+    restricted = true
+    sorted = false
+    updateable = true
+    valueSet = [
+      {
+        default = false
+        fullName = "Prospect"
+        label = "Prospect"
+      },
+      {
+        default = false
+        fullName = "Active"
+        label = "Active"
+      },
+      {
+        default = false
+        fullName = "Churned"
+        label = "Churned"
+      },
+    ]
+  }
+  salesforce.Lookup Yariv_ref__c {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Account.Yariv_ref__c"
+    createable = true
+    description = "desc bla bla"
+    inlineHelpText = "help bla bla"
+    label = "Yariv ref"
+    referenceTo = [
+      "Yariv__c",
+    ]
+    updateable = true
+  }
+  salesforce.Picklist AdaptersOfInterest__c {
+    _required = false
+    apiName = "Account.AdaptersOfInterest__c"
+    createable = true
+    label = "AdaptersOfInterest"
+    restricted = true
+    sorted = false
+    updateable = true
+    valueSet = [
+      {
+        default = false
+        fullName = "Salesforce"
+        label = "Salesforce"
+      },
+      {
+        default = false
+        fullName = "Netsuite"
+        label = "Netsuite"
+      },
+      {
+        default = false
+        fullName = "Hubspot"
+        label = "Hubspot"
+      },
+      {
+        default = false
+        fullName = "Workday"
+        label = "Workday"
+      },
+      {
+        default = false
+        fullName = "Marketo"
+        label = "Marketo"
+      },
+    ]
+  }
+  salesforce.Checkbox Git_In_Use__c {
+    apiName = "Account.Git_In_Use__c"
+    createable = true
+    defaultValue = false
+    label = "Git In Use"
+    updateable = true
+  }
+  salesforce.Number SFDC_Team_Size__c {
+    _required = false
+    apiName = "Account.SFDC_Team_Size__c"
+    createable = true
+    description = "Number of SFDC dev/admins in the company"
+    externalId = false
+    label = "SFDC Team Size"
+    precision = 18
+    scale = 0
+    unique = false
+    updateable = true
+  }
+  salesforce.Picklist Tier__c {
+    _required = false
+    apiName = "Account.Tier__c"
+    createable = true
+    label = "Tier"
+    restricted = true
+    sorted = false
+    updateable = true
+    valueSet = [
+      {
+        default = false
+        fullName = "Small Business"
+        label = "Small Business"
+      },
+      {
+        default = false
+        fullName = "Medium Business"
+        label = "Medium Business"
+      },
+      {
+        default = false
+        fullName = "Large Enterprise"
+        label = "Large Enterprise"
+      },
+    ]
+  }
+}

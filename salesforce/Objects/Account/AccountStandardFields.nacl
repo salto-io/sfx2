@@ -1,0 +1,219 @@
+type salesforce.Account {
+  salesforce.Picklist AccountSource {
+    _required = false
+    apiName = "Account.AccountSource"
+    createable = true
+    label = "Account Source"
+    restricted = false
+    updateable = true
+    valueSetName = salesforce.StandardValueSet.instance.LeadSource
+  }
+  salesforce.Address BillingAddress {
+    _required = false
+    apiName = "Account.BillingAddress"
+    createable = false
+    label = "Billing Address"
+    updateable = false
+  }
+  salesforce.Lookup CreatedById {
+    _hidden = true
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Account.CreatedById"
+    createable = false
+    label = "Created By ID"
+    referenceTo = [
+      "User",
+    ]
+    updateable = false
+  }
+  salesforce.DateTime CreatedDate {
+    _hidden = true
+    _required = false
+    apiName = "Account.CreatedDate"
+    createable = false
+    label = "Created Date"
+    updateable = false
+  }
+  salesforce.LongTextArea Description {
+    _required = false
+    apiName = "Account.Description"
+    createable = true
+    label = "Account Description"
+    length = 32000
+    updateable = true
+  }
+  serviceid Id {
+    _hidden = true
+    _required = false
+    apiName = "Account.Id"
+    createable = false
+    label = "Account ID"
+    updateable = false
+  }
+  salesforce.Picklist Industry {
+    _required = false
+    apiName = "Account.Industry"
+    createable = true
+    label = "Industry"
+    restricted = false
+    updateable = true
+    valueSetName = salesforce.StandardValueSet.instance.Industry
+  }
+  salesforce.Checkbox IsDeleted {
+    _hidden = true
+    _required = false
+    apiName = "Account.IsDeleted"
+    createable = false
+    defaultValue = false
+    label = "Deleted"
+    updateable = false
+  }
+  salesforce.Text Jigsaw {
+    _required = false
+    apiName = "Account.Jigsaw"
+    caseSensitive = false
+    createable = true
+    label = "Data.com Key"
+    length = 20
+    unique = false
+    updateable = true
+  }
+  salesforce.Text JigsawCompanyId {
+    _required = false
+    apiName = "Account.JigsawCompanyId"
+    caseSensitive = false
+    createable = false
+    label = "Jigsaw Company ID"
+    length = 20
+    unique = false
+    updateable = false
+  }
+  salesforce.Date LastActivityDate {
+    _hidden = true
+    _required = false
+    apiName = "Account.LastActivityDate"
+    createable = false
+    label = "Last Activity"
+    updateable = false
+  }
+  salesforce.Lookup LastModifiedById {
+    _hidden = true
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Account.LastModifiedById"
+    createable = false
+    label = "Last Modified By ID"
+    referenceTo = [
+      "User",
+    ]
+    updateable = false
+  }
+  salesforce.DateTime LastModifiedDate {
+    _hidden = true
+    _required = false
+    apiName = "Account.LastModifiedDate"
+    createable = false
+    label = "Last Modified Date"
+    updateable = false
+  }
+  salesforce.Lookup MasterRecordId {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Account.MasterRecordId"
+    createable = false
+    label = "Master Record ID"
+    referenceTo = [
+      "Account",
+    ]
+    updateable = false
+  }
+  salesforce.Number NumberOfEmployees {
+    _required = false
+    apiName = "Account.NumberOfEmployees"
+    createable = true
+    label = "Employees"
+    precision = 8
+    scale = 0
+    unique = false
+    updateable = true
+  }
+  salesforce.Lookup OwnerId {
+    _hidden = true
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Account.OwnerId"
+    createable = false
+    label = "Owner ID"
+    referenceTo = [
+      "User",
+    ]
+    updateable = false
+  }
+  salesforce.Lookup ParentId {
+    _required = false
+    allowLookupRecordDeletion = true
+    apiName = "Account.ParentId"
+    createable = true
+    label = "Parent Account ID"
+    referenceTo = [
+      "Account",
+    ]
+    updateable = true
+  }
+  salesforce.Phone Phone {
+    _required = false
+    apiName = "Account.Phone"
+    createable = true
+    label = "Account Phone"
+    updateable = true
+  }
+  salesforce.Url PhotoUrl {
+    _required = false
+    apiName = "Account.PhotoUrl"
+    createable = false
+    label = "Photo URL"
+    updateable = false
+  }
+  salesforce.Address ShippingAddress {
+    _required = false
+    apiName = "Account.ShippingAddress"
+    createable = false
+    label = "Shipping Address"
+    updateable = false
+  }
+  salesforce.Text SicDesc {
+    _required = false
+    apiName = "Account.SicDesc"
+    caseSensitive = false
+    createable = true
+    label = "SIC Description"
+    length = 80
+    unique = false
+    updateable = true
+  }
+  salesforce.DateTime SystemModstamp {
+    _hidden = true
+    _required = false
+    apiName = "Account.SystemModstamp"
+    createable = false
+    label = "System Modstamp"
+    updateable = false
+  }
+  salesforce.Picklist Type {
+    _required = false
+    apiName = "Account.Type"
+    createable = true
+    label = "Account Type"
+    restricted = false
+    updateable = true
+    valueSetName = salesforce.StandardValueSet.instance.AccountType
+  }
+  salesforce.Url Website {
+    _required = false
+    apiName = "Account.Website"
+    createable = true
+    label = "Website"
+    updateable = true
+  }
+}
