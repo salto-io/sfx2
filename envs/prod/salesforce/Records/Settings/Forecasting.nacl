@@ -256,6 +256,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -296,6 +300,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -466,6 +471,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -506,6 +515,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -680,6 +690,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -721,6 +735,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -891,6 +906,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -931,6 +950,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -1105,6 +1125,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -1146,6 +1170,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -1316,6 +1341,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -1356,6 +1385,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -1530,6 +1560,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -1571,6 +1605,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -1741,6 +1776,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -1781,6 +1820,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -1955,6 +1995,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -1996,6 +2040,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -2166,6 +2211,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -2206,6 +2255,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -2380,6 +2430,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -2421,6 +2475,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
@@ -2591,6 +2646,10 @@ salesforce.ForecastingSettings {
           label = "Loss Reason"
         },
         {
+          field = "00N26000004gX1e"
+          label = "Rating"
+        },
+        {
           field = "00N4J000006Kou9"
           label = "ROI Analysis Completed"
         },
@@ -2631,6 +2690,7 @@ salesforce.ForecastingSettings {
           "00N4J000006Kou7",
           "00N4J000006Kou8",
           "00N4J000006KouA",
+          "00N26000004gX1e",
           "00N4J000006Kou9",
         ]
       }
